@@ -21,7 +21,7 @@ h2 span {color:#52a9d4;}
 
 /* page */
 .wrapper {background:#fff; margin:0; border:5px solid #52A9D4; overflow:hidden; }
-.page {padding:30px 0 20px; background:#fff;  overflow:auto; }
+.page {padding:20px 0; background:#fff;  overflow:auto; }
 
 /* header */
 nav {background:#e7e7e7; }
