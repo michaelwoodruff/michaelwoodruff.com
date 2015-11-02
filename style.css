@@ -18,6 +18,7 @@ h2 span {color:#52a9d4;}
 
 /* forms */
 .form-control {font-size:16px;}
+.highlight {background: linear-gradient(to bottom, rgba(255,255,0,0.3), rgba(255,255,0,0.3))};
 
 /* page */
 .wrapper {background:#fff; margin:0; border:5px solid #52A9D4; overflow:hidden; }
@@ -45,7 +46,6 @@ img { max-width: 100%; }
 .avatar {width:128px; margin:10px auto;}
 .avatar img {padding:0; border:1px solid #ccc; background:#fff;}
 
-
 /* home */
 .logo {margin:25px auto; display:block; border:0;}
 .card {text-align:center; position:relative; margin-bottom:20px;}
@@ -53,6 +53,7 @@ img { max-width: 100%; }
 .card h1, .card h2 {text-align:center;}
 .social-icons {margin:0 0 20px;}
 .social-icons .genericon {margin:5px 0;}
+.bio p {font-size:16px; line-height:22px;}
 
 a .fa-linkedin-square:hover {color:#007bb6;}
 a .fa-twitter:hover {color:#00aced;}
@@ -103,8 +104,9 @@ footer a, footer a:hover {color:#333;}
 
     .social-site {background:none; color:#333;}
     .social-site a {color:#333;}
-	/*body {margin:20px;}
-	h2 { font-size: 22px;}
+	/*body {margin:20px;}*/
+	h2 {font-size: 22px;}
+
 
 
 
@@ -121,6 +123,7 @@ footer a, footer a:hover {color:#333;}
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px ) {
 
+	.bio {margin:0 0 20px 15px;}
     .wrapper {width:1200px; margin:20px auto;}
 
 }
