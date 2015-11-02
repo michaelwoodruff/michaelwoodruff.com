@@ -22,7 +22,7 @@ h2 span {color:#52a9d4;}
 
 /* page */
 .wrapper {background:#fff; margin:0;}
-.page {padding:20px 0; background:#fff; border:10px solid #52A9D4;}
+.page {padding:20px 0; background:#fff; border:5px solid #52A9D4;}
 
 /* header */
 nav {background:#e7e7e7; }
@@ -118,7 +118,7 @@ footer a, footer a:hover {color:#333;}
     .wrapper {margin:20px; border-radius:10px; }
     .rss-que {margin:0 0 20px;}
   /*  .social-icons {margin-bottom:10px;} */
-  .page {border-radius:10px}
+  .page {border-radius:10px; border:10px solid #52A9D4;}
 }
 
 /* Large devices (large desktops, 1200px and up) */
