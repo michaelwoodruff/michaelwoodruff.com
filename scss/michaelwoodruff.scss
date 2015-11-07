@@ -15,8 +15,8 @@ h2 span {color:#52a9d4;}
 .highlight {background: linear-gradient(to bottom, rgba(255,255,0,0.3), rgba(255,255,0,0.3))};
 
 /* page */
-.wrapper {background:#fff; margin:0;}
-.page {padding:20px 0; background:#fff; border:5px solid #52A9D4;}
+.wrapper {background:#fff; margin:0;  border:5px solid #52A9D4;}
+.page {padding:20px 0; background:#fff;}
 
 /* header */
 nav {background:#e7e7e7; }
@@ -109,10 +109,10 @@ footer a, footer a:hover {color:#333;}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px ) {
 	/*.container {max-width: 800px; min-height:400px;} */
-    .wrapper {margin:20px; border-radius:10px; }
+    .wrapper {margin:20px; border-radius:10px; border-radius:10px; border:7px solid #52A9D4;}
     .rss-que {margin:0 0 20px;}
   /*  .social-icons {margin-bottom:10px;} */
-  .page {border-radius:10px; border:10px solid #52A9D4;}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
