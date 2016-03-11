@@ -59,7 +59,8 @@ a .fa-linkedin-square:hover {color:#007bb6;}
 a .fa-twitter:hover {color:#00aced;}
 a .fa-dribbble:hover {color:#ea4c89;}
 a .fa-github:hover {color:#4183c4;}
-a .fa-pinboard:hover {color:#4183c4;}
+a .fa-thumb-tack:hover {color:#0000e6;}
+a .fa-get-pocket:hover {color:#ef4056;}
 
 .widget {margin:0 auto; display: block;}
 .content-loading .fa-refresh {margin-top:15px;}
