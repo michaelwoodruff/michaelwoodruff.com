@@ -59,8 +59,38 @@ function pinboardrssfeedsetup() {
 	pinboardfeedpointer.load(displaypinboardfeed);
 }
 
+/* pocket */
+// https://getpocket.com/users/michaelwoodruff/feed/all
+var pocketfeedcontainer = document.getElementById("pocketfeed");
+var pocketfeedurl = "https://getpocket.com/users/michaelwoodruff/feed/all?nocache=" + (new Date()).getTime();
+var pocketfeedlimit = 10;
+var pocketrssoutput = "";
+function displaypocketfeed(result) {
+	if (!result.error) {
+	 	var pocketfeeds = result.feed.entries;
+		pocketrssoutput += "<ul>";
+		for (var i = 0; i < pocketfeeds.length; i++) {
+			pubdate = new Date(pocketfeeds[i].publishedDate),
+			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
+			pocketrssoutput += "<li><a href='" + pocketfeeds[i].link + "'><i class=\"fa fa-file-text-o fa-lg\"></i><div class=\"post\">" + pocketfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
+		}
+		pocketrssoutput += "</ul>";
+		pocketfeedcontainer.innerHTML = pocketrssoutput;
+	} else {
+		console.log("Error fetching pocket feed!");
+	}
+}
+function instapaperrssfeedsetup() {
+	var pocketfeedpointer = new google.feeds.Feed(pocketfeedurl);
+	pocketfeedpointer.setNumEntries(pocketfeedlimit);
+	pocketfeedpointer.load(displaypocketfeed);
+}
+
+
+
 
 /* instapaper */
+/*
 var instapaperfeedcontainer = document.getElementById("instapaperfeed");
 var instapaperfeedurl = "https://www.instapaper.com/rss/288665/rdPIqInL3mfgAr91yeUJ600TuSU?nocache=" + (new Date()).getTime();
 var instapaperfeedlimit = 10;
@@ -71,7 +101,7 @@ function displayinstapaperfeed(result) {
 		instapaperrssoutput += "<ul>";
 		for (var i = 0; i < theinstapaperfeeds.length; i++) {
 			pubdate = new Date(theinstapaperfeeds[i].publishedDate),
-			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
+			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'),
 			instapaperrssoutput += "<li><a href='" + theinstapaperfeeds[i].link + "'><i class=\"fa fa-file-text-o fa-lg\"></i><div class=\"post\">" + theinstapaperfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
 		}
 		instapaperrssoutput += "</ul>";
@@ -85,12 +115,12 @@ function instapaperrssfeedsetup() {
 	instapaperfeedpointer.setNumEntries(instapaperfeedlimit);
 	instapaperfeedpointer.load(displayinstapaperfeed);
 }
-
+*/
 
 
 
 $(document).ready(function () {
-    
+
     var currentURL = location.pathname;
 	$('.navbar-site a[href="' + currentURL + '"]').parent("li").addClass('active');
 
