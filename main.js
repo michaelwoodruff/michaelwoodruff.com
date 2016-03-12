@@ -72,7 +72,7 @@ function displaypocketfeed(result) {
 		for (var i = 0; i < pocketfeeds.length; i++) {
 			pubdate = new Date(pocketfeeds[i].publishedDate),
 			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
-			pocketrssoutput += "<li><a href='" + pocketfeeds[i].link + "'><i class=\"fa fa-file-text-o fa-lg\"></i><div class=\"post\">" + pocketfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
+			pocketrssoutput += "<li><a href='" + pocketfeeds[i].link + "'><i class=\"fa fa-get-pocket\"></i><div class=\"post\">" + pocketfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
 		}
 		pocketrssoutput += "</ul>";
 		pocketfeedcontainer.innerHTML = pocketrssoutput;
