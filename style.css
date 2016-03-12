@@ -58,9 +58,9 @@ img { max-width: 100%; }
 a .fa-linkedin-square:hover {color:#007bb6;}
 a .fa-twitter:hover, .social-site.twitter a:hover {color:#00aced;}
 a .fa-dribbble:hover {color:#ea4c89;}
-a .fa-github:hover, .social-site.github a:hover {color:#4183c4;}
-a .fa-thumb-tack:hover, .social-site.pinboard a:hover  {color:#0000e6;}
-a .fa-get-pocket:hover, .social-site.pocket a:hover {color:#ef4056;}
+a .fa-github:hover, .social-site.github a:hover,  .github .rss-que a:hover, .github .rss-que a:hover .fa, .github .rss-que a:hover .pubdate {color:#4183c4;}
+a .fa-thumb-tack:hover, .social-site.pinboard a:hover,  .pinboard .rss-que a:hover, .pinboard .rss-que a:hover .fa, .pinboard .rss-que a:hover .pubdate {color:#0000e6;}
+a .fa-get-pocket:hover, .social-site.pocket a:hover, .pocket .rss-que a:hover, .pocket .rss-que a:hover .fa, .pocket .rss-que a:hover .pubdate {text-decoration:none; color:#ef4056;}
 
 .widget {margin:0 auto; display: block;}
 .content-loading .fa-refresh {margin-top:15px;}
@@ -76,7 +76,7 @@ a .fa-get-pocket:hover, .social-site.pocket a:hover {color:#ef4056;}
 .rss-que ul {margin:0; padding:0;}
 .rss-que li {list-style-type:none; margin-bottom:10px;}
 .pubdate {color:#999; font-size:12px; margin-top:2px;}
-.rss-que a:hover, .rss-que a:hover .fa, .rss-que a:hover .pubdate {text-decoration:none; color:#52a9d4;}
+/*.rss-que a:hover, .rss-que a:hover .fa, .rss-que a:hover .pubdate {text-decoration:none; color:#52a9d4;}*/
 
 .dribble-shots img {border:1px solid #eee; border-radius:3px; padding:3px; background:#fff; margin-bottom:15px;}
 
