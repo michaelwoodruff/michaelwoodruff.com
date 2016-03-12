@@ -51,16 +51,16 @@ img { max-width: 100%; }
 .card {text-align:center; position:relative; margin-bottom:20px;}
 .card h1 {margin-bottom:0;}
 .card h1, .card h2 {text-align:center;}
-.social-icons {margin:0 0 20px;}
+.social-icons {margin:20px 0 20px;}
 .social-icons .genericon {margin:5px 0;}
 .bio p {font-size:16px; line-height:22px;}
 
 a .fa-linkedin-square:hover {color:#007bb6;}
-a .fa-twitter:hover {color:#00aced;}
+a .fa-twitter:hover, .social-site.twitter a:hover {color:#00aced;}
 a .fa-dribbble:hover {color:#ea4c89;}
-a .fa-github:hover {color:#4183c4;}
-a .fa-thumb-tack:hover {color:#0000e6;}
-a .fa-get-pocket:hover {color:#ef4056;}
+a .fa-github:hover, .social-site.github a:hover {color:#4183c4;}
+a .fa-thumb-tack:hover, .social-site.pinboard a:hover  {color:#0000e6;}
+a .fa-get-pocket:hover, .social-site.pocket a:hover {color:#ef4056;}
 
 .widget {margin:0 auto; display: block;}
 .content-loading .fa-refresh {margin-top:15px;}
