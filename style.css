@@ -2,28 +2,18 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 
-/* variables */
-
-/*
-@navbar-border-radius: 0;
-@nav-link-hover-bg: #52a9d4;
-*/
-
 body {background:#333; color:#333; font-family:Helvetica, Arial, "Lucida Grande", sans-serif; }
-a { color: #52A9D4;}
+a {color: #52A9D4;}
 a:hover {text-decoration:none; color:#52A9D4;}
 h1 {font-size:38px; margin:15px 0; text-align: center; font-weight: bold; line-height:1; font-family:'Archivo Narrow', sans-serif;}
 h2 {line-height:1.3; margin:15px 0 5px; font-size:22px; font-weight:normal;  font-family: 'Archivo Narrow', sans-serif;}
 h2 span {color:#52a9d4;}
 .logo {fill:#52a9d4; width:90%;}
 
-/* forms */
-.form-control {font-size:16px;}
-.highlight {background: linear-gradient(to bottom, rgba(255,255,0,0.3), rgba(255,255,0,0.3))};
 
 /* page */
-.wrapper {background:#fff; margin:0;}
-.page {padding:20px 0; background:#fff; border:5px solid #52A9D4;}
+.wrapper {margin:0; border:5px solid #52A9D4;}
+.page {padding:20px 0; background:#fff; }
 
 /* header */
 nav {background:#e7e7e7; }
@@ -107,11 +97,7 @@ footer a, footer a:hover {color:#333;}
 	.logo {width:100%;}
     .social-site {background:none; color:#333;}
     .social-site a {color:#333;}
-	/*body {margin:20px;}*/
 	h2 {font-size: 22px;}
-
-
-
 
 }
 
@@ -119,17 +105,14 @@ footer a, footer a:hover {color:#333;}
 @media (min-width: 992px ) {
 
 	.logo {width:70%;}
-	/*.container {max-width: 800px; min-height:400px;} */
-    .wrapper {margin:20px; border-radius:10px; }
     .rss-que {margin:0 0 20px;}
-  /*  .social-icons {margin-bottom:10px;} */
-  .page {border-radius:10px; border:10px solid #52A9D4;}
+	.social-icons {margin-bottom:15px;}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px ) {
 
 	.bio {margin:0 0 20px 15px;}
-    .wrapper {width:1200px; margin:20px auto;}
+	.wrapper {width:1200px; margin:15px auto;}
 
 }
