@@ -27,7 +27,7 @@ header a, header a:hover {color:#333;}
 .portfolio-group {margin:25px 0 15px 0;}
 .portfolio-group-item {position:relative; margin-bottom:20px;}
 .portfolio-name {margin:10px 0; position:absolute; bottom:0; width:100%; display:none;}
-.portfolio-name a {color:#333;}
+.portfolio-name a {color:#52A9D4; display:block; line-height:24px;}
 .portfolio-name a:hover {color:#52A9D4;}
 .portfolio-group img {border:2px solid #ccc;}
 .portfolio-group-item:hover img {border-color:#52A9D4;}
