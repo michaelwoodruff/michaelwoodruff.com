@@ -25,7 +25,7 @@ header a, header a:hover {color:#333;}
 .site-menu a .site-menu-label {font-size:14px;}
 
 .portfolio-group {margin:25px 0 15px 0;}
-.portfolio-group-item {position:relative; margin-bottom:30px;}
+.portfolio-group-item {position:relative; margin-bottom:20px;}
 .portfolio-name {margin:10px 0; position:absolute; bottom:0; width:100%; display:none;}
 .portfolio-name a {color:#333;}
 .portfolio-name a:hover {color:#52A9D4;}
