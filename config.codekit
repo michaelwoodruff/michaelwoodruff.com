@@ -11,6 +11,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/acorn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7165,
+		"inputAbbreviatedPath": "\/images\/acorn.png",
+		"outputAbbreviatedPath": "\/images\/acorn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -22,6 +33,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/arms.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7756,
+		"inputAbbreviatedPath": "\/images\/arms.png",
+		"outputAbbreviatedPath": "\/images\/arms.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/avatar.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -29,6 +51,72 @@
 		"initialSize": 32796,
 		"inputAbbreviatedPath": "\/images\/avatar.jpg",
 		"outputAbbreviatedPath": "\/images\/avatar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/beren.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7428,
+		"inputAbbreviatedPath": "\/images\/beren.png",
+		"outputAbbreviatedPath": "\/images\/beren.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/dawn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8905,
+		"inputAbbreviatedPath": "\/images\/dawn.png",
+		"outputAbbreviatedPath": "\/images\/dawn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hale.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7666,
+		"inputAbbreviatedPath": "\/images\/hale.png",
+		"outputAbbreviatedPath": "\/images\/hale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/jbbq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8656,
+		"inputAbbreviatedPath": "\/images\/jbbq.png",
+		"outputAbbreviatedPath": "\/images\/jbbq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kaliosm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7884,
+		"inputAbbreviatedPath": "\/images\/kaliosm.png",
+		"outputAbbreviatedPath": "\/images\/kaliosm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logobrand.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7814,
+		"inputAbbreviatedPath": "\/images\/logobrand.png",
+		"outputAbbreviatedPath": "\/images\/logobrand.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -51,6 +139,50 @@
 		"initialSize": 2091,
 		"inputAbbreviatedPath": "\/images\/mw.png",
 		"outputAbbreviatedPath": "\/images\/mw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/pear.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6477,
+		"inputAbbreviatedPath": "\/images\/pear.png",
+		"outputAbbreviatedPath": "\/images\/pear.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/rtea.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7496,
+		"inputAbbreviatedPath": "\/images\/rtea.png",
+		"outputAbbreviatedPath": "\/images\/rtea.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/tocc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6768,
+		"inputAbbreviatedPath": "\/images\/tocc.png",
+		"outputAbbreviatedPath": "\/images\/tocc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/wigs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7674,
+		"inputAbbreviatedPath": "\/images\/wigs.png",
+		"outputAbbreviatedPath": "\/images\/wigs.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
