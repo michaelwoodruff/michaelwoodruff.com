@@ -122,7 +122,7 @@ function instapaperrssfeedsetup() {
 $(document).ready(function () {
 
     var currentURL = location.pathname;
-	$('.navbar-site a[href="' + currentURL + '"]').parent("li").addClass('active');
+	$('.site-menu a[href="' + currentURL + '"]').addClass('active');
 
 });
 
