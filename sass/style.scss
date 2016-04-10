@@ -6,10 +6,10 @@ body {background:#333; color:#333; font-family:Helvetica, Arial, "Lucida Grande"
 a {color: #52A9D4;}
 a:hover {text-decoration:none; color:#52A9D4;}
 h1 {font-size:38px; margin:15px 0 25px; text-align: center; font-weight: bold; line-height:1; font-family:'Archivo Narrow', sans-serif;}
-h2 {line-height:1.3; margin:15px 0 5px; font-size:22px; font-weight:normal;  font-family: 'Archivo Narrow', sans-serif;}
+h2 {font-weight:normal;  font-family: 'Archivo Narrow', sans-serif;}
 h2 span {color:#52a9d4;}
 .logo {fill:#52a9d4; width:90%;}
-
+.vertical-center { position:absolute; top:50%; transform:translateY(-50%); }
 
 /* page */
 .wrapper {margin:0; border:7px solid #52A9D4;}
@@ -18,20 +18,28 @@ h2 span {color:#52a9d4;}
 /* header */
 header {text-align:center; font-size:16px; font-family:'Archivo Narrow', sans-serif; background:#ededed; border-bottom:1px solid #ddd;}
 header a, header a:hover {color:#333;}
-.site-menu { }
 .site-menu a {color:#000; display:block; padding:10px 0; text-transform: uppercase; text-decoration:none; text-align:center;}
 .site-menu a:hover {color:#52A9D4}
 .site-menu a.active {color:#52A9D4;}
 .site-menu a .site-menu-label {font-size:14px;}
 
+// portfolio
 .portfolio-group {margin:25px 0 15px 0;}
-.portfolio-group-item {position:relative; margin-bottom:20px;}
-.portfolio-name {margin:0 0 10px; position:absolute; bottom:-15px; width:100%; opacity:0;}
-.portfolio-name a {color:#52A9D4; display:block; line-height:22px;}
-.portfolio-name a:hover {color:#52A9D4;}
-.portfolio-group img {border:2px solid #ccc;}
-.portfolio-group-item:hover img {border-color:#52A9D4;}
-.portfolio-group-item:hover .portfolio-name {transition: all 0.3s ease 0s; transform: translateY(-20px); opacity:1; }
+.portfolio-group-item {position:relative; margin-bottom:20px; border:2px solid #ccc; background:#eee; height:200px; text-align:center;}
+.portfolio-group-item a:last-child {font-weight:bold;}
+.portfolio-group-item.portfolio-group-disabled {background:#fff;}
+.portfolio-group-item.portfolio-group-disabled .portfolio-name {color:#ccc;}
+.portfolio-name {font-family:'Archivo Narrow', sans-serif; font-size:32px;text-align:center; margin:0; width:100%; font-weight:bold; color:#333;}
+.portfolio-name a {display: block; padding:10px 0; text-decoration:none; color:#333;}
+.portfolio-group-item:hover {border-color:#52A9D4;}
+.portfolio-link {margin:0; position:absolute; bottom:0; width:100%; opacity:0;}
+.portfolio-link a {color:#52A9D4; display:block; line-height:22px;}
+.portfolio-link a:hover {color:#52A9D4;}
+.portfolio-group-item:hover .portfolio-link {transition:all 0.3s ease 0s; transform:translateY(-15px); opacity:1;}
+
+svg.pear-logo  {fill:#333;}
+.portfolio-logo {width:100%;}
+.portfolio-logo svg {width:50%; display:block; margin:auto; height:100px;}
 
 .social-site {background:#52a9d4; color:#fff; padding:7px; text-align:center; margin:15px -15px 10px; font-size:22px; font-family: 'Archivo Narrow', sans-serif;}
 .social-site .genericon {margin-right:5px;}
@@ -103,7 +111,7 @@ footer a, footer a:hover {color:#333;}
 	.logo {width:100%;}
     .social-site {background:none; color:#333;}
     .social-site a {color:#333;}
-	h2 {font-size: 22px;}
+	//h2 {font-size: 22px;}
 
 	.site-menu .fa { font-size: 1.33333333em; line-height: .75em; vertical-align: -15%;} /* fa-lg */
 	.site-menu a .site-menu-label {font-size:16px;}
@@ -122,6 +130,6 @@ footer a, footer a:hover {color:#333;}
 @media (min-width: 1200px ) {
 
 	.bio {margin:0 0 20px 0;}
-	.wrapper {width:1200px; margin:15px auto;}
+	//.wrapper {width:1200px; margin:15px auto;}
 
 }
