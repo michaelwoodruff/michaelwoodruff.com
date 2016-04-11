@@ -127,6 +127,18 @@ header a, header a:hover {
   transform: translateY(-15px);
   opacity: 1; }
 
+.portfolio-dawn svg {
+  width: 70%; }
+
+.portfolio-dawn:hover {
+  border-color: #f65c7b; }
+
+.portfolio-dawn:hover svg {
+  fill: #f65c7b; }
+
+.portfolio-dawn a {
+  color: #575a5d; }
+
 .portfolio-pear svg {
   width: 70%; }
 
@@ -171,6 +183,18 @@ svg:hover .goldb {
 
 .portfolio-arms a {
   color: #918a6f; }
+
+.portfolio-rtea svg {
+  width: 80%; }
+
+.portfolio-rtea:hover {
+  border-color: #566c11; }
+
+.portfolio-arms:hover svg {
+  fill: #b32317; }
+
+.portfolio-rtea a {
+  color: #566c11; }
 
 .social-site {
   background: #52a9d4;

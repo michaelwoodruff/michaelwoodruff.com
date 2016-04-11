@@ -37,6 +37,11 @@ header a, header a:hover {color:#333;}
 //.portfolio-link a:hover {color:#52A9D4;}
 .portfolio-group-item:hover .portfolio-link {transition:all 0.3s ease 0s; transform:translateY(-15px); opacity:1;}
 
+.portfolio-dawn svg {width:70%;}
+.portfolio-dawn:hover {border-color:#f65c7b;}
+.portfolio-dawn:hover svg {fill:#f65c7b;} //pink
+.portfolio-dawn a {color:#575a5d;} //gray
+
 .portfolio-pear svg {width:70%;}
 .portfolio-pear:hover {border-color:#91B7BE;}
 .portfolio-pear:hover svg {fill:#91B7BE;}
@@ -56,6 +61,11 @@ svg:hover .goldb {fill:#D59F0F;}
 .portfolio-arms:hover {border-color:#918a6f;}
 //.portfolio-arms:hover svg {fill:#ff7f00;}
 .portfolio-arms a {color:#918a6f;}
+
+.portfolio-rtea svg {width:80%;}
+.portfolio-rtea:hover {border-color:#566c11;}
+.portfolio-arms:hover svg {fill:#b32317;}
+.portfolio-rtea a {color:#566c11;}
 
 
 .social-site {background:#52a9d4; color:#fff; padding:7px; text-align:center; margin:15px -15px 10px; font-size:22px; font-family: 'Archivo Narrow', sans-serif;}
