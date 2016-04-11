@@ -65,9 +65,6 @@ header a, header a:hover {
   text-decoration: none;
   text-align: center; }
 
-.site-menu a:hover {
-  color: #52A9D4; }
-
 .site-menu a.active {
   color: #52A9D4; }
 
@@ -79,10 +76,11 @@ header a, header a:hover {
 
 .portfolio-group-item {
   position: relative;
-  margin-bottom: 20px;
-  border: 2px solid #ccc;
-  background: #eee;
-  height: 200px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  background: #fff;
+  height: 100px;
   text-align: center; }
 
 .portfolio-group-item a:last-child {
@@ -115,7 +113,7 @@ header a, header a:hover {
 .portfolio-link {
   margin: 0;
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   width: 100%;
   opacity: 0; }
 
@@ -124,25 +122,55 @@ header a, header a:hover {
   display: block;
   line-height: 22px; }
 
-.portfolio-link a:hover {
-  color: #52A9D4; }
-
 .portfolio-group-item:hover .portfolio-link {
   transition: all 0.3s ease 0s;
   transform: translateY(-15px);
   opacity: 1; }
 
-svg.pear-logo {
-  fill: #333; }
+.portfolio-pear svg {
+  width: 70%; }
 
-.portfolio-logo {
-  width: 100%; }
+.portfolio-pear:hover {
+  border-color: #91B7BE; }
 
-.portfolio-logo svg {
-  width: 50%;
-  display: block;
-  margin: auto;
-  height: 100px; }
+.portfolio-pear:hover svg {
+  fill: #91B7BE; }
+
+.portfolio-pear a {
+  color: #91B7BE; }
+
+.portfolio-hale svg {
+  width: 40%; }
+
+.portfolio-hale:hover {
+  border-color: #d34927; }
+
+.portfolio-hale:hover svg {
+  fill: #d34927; }
+
+.portfolio-hale a {
+  color: #584e3f; }
+
+.portfolio-bern svg {
+  width: 80%; }
+
+svg:hover .goldb {
+  fill: #D59F0F; }
+
+.portfolio-bern:hover {
+  border-color: #D59F0F; }
+
+.portfolio-bern a {
+  color: #D59F0F; }
+
+.portfolio-arms svg {
+  width: 80%; }
+
+.portfolio-arms:hover {
+  border-color: #918a6f; }
+
+.portfolio-arms a {
+  color: #918a6f; }
 
 .social-site {
   background: #52a9d4;
@@ -318,7 +346,10 @@ footer a, footer a:hover {
     font-size: 18px; }
 
   .navbar-site li {
-    width: 33.333%; } }
+    width: 33.333%; }
+
+  .portfolio-group-item {
+    height: 200px; } }
 /* Small devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
   .logo {
@@ -349,4 +380,8 @@ footer a, footer a:hover {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .bio {
-    margin: 0 0 20px 0; } }
+    margin: 0 0 20px 0; }
+
+  .wrapper {
+    width: 1200px;
+    margin: 15px auto; } }
