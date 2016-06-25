@@ -117,12 +117,39 @@ function instapaperrssfeedsetup() {
 }
 */
 
-
+var woodycontact =  document.getElementById('woodycontact');
+woodycontact.setAttribute('action', '//formspree.io/' + 'michael.woodruff' + '@' + 'gmail' + '.' + 'com');
 
 $(document).ready(function () {
 
+	$.validator.setDefaults({
+        highlight: function(element) {
+            $(element).closest('.form-group').addClass('has-error');
+        },
+        unhighlight: function(element) {
+            $(element).closest('.form-group').removeClass('has-error');
+        },
+        errorElement: 'div',
+        errorClass: 'error-msg',
+        errorPlacement: function(error, element) {
+            if (element.parent('.input-group').length) {
+                error.insertAfter(element.parent());
+            } else {
+                error.insertAfter(element);
+            }
+        }
+    });
+
+	// generic validation
+	$(".form-validate").each(function() { // attach to all form elements on page
+		$(this).validate();
+	});
+
+
     var currentURL = location.pathname;
 	$('.site-menu a[href="' + currentURL + '"]').addClass('active');
+
+
 
 });
 

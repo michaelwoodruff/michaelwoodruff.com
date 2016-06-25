@@ -46,6 +46,9 @@ h2 span {
   background: #fff;
   min-height: 300px; }
 
+.gutter-bottom {
+  margin-bottom: 15px; }
+
 /* header */
 header {
   text-align: center;
@@ -70,6 +73,10 @@ header a, header a:hover {
 
 .site-menu a .site-menu-label {
   font-size: 14px; }
+
+.error-msg {
+  color: #a94442;
+  margin-top: 5px; }
 
 .portfolio-group {
   margin: 25px 0 15px 0; }

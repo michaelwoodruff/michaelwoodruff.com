@@ -3,8 +3,33 @@
 
     <h1><i class="fa fa-comments-o"></i> Contact</h1>
 
-    <p class="text-center">Contact me on  <a href="https://www.linkedin.com/in/michaelwoodruff"><i class="fa fa-linkedin-square"></i>  LinkedIn</a> in for now.</p>
+    <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
+            <form id="woodycontact" method="POST" class="form-validate">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" class="form-control required" data-msg="Please Enter <b>Your Name</b>">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="_replyto" placeholder="Your Email" class="form-control required" data-msg="Please Enter <b>Your Email</b>">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message"class="form-control required" rows="6" data-msg="Please Enter <b>Your Message</b>"></textarea>
+                </div>
+                <input type="hidden" name="_subject" value="Website contact">
+                <input type="hidden" name="_next" value="http://michaelwodruff.com">
+                <input type="text" name="_gotcha" style="display:none">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <button class="btn btn-block btn-default gutter-bottom" type="submit"><i class="fa fa-envelope-o"></i> Send Message</button>
+                    </div>
+                </div>
+            </form>
 
-</div>
+        </div> <!-- col -->
+    </div> <!-- row -->
+
+    <p class="text-center">Contact me on  <a href="https://www.linkedin.com/in/michaelwoodruff"><i class="fa fa-linkedin-square"></i>  LinkedIn</a> as well.</p>
+
+</div> <!-- container -->
 <!-- @include "footer.html" -->

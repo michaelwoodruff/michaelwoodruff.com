@@ -14,6 +14,7 @@ h2 span {color:#52a9d4;}
 /* page */
 .wrapper {margin:0; border:7px solid #52A9D4;}
 .page {padding:20px 0; background:#fff; min-height:300px;}
+.gutter-bottom {margin-bottom: 15px;}
 
 /* header */
 header {text-align:center; font-size:16px; font-family:'Archivo Narrow', sans-serif; background:#ededed; border-bottom:1px solid #ddd;}
@@ -22,6 +23,9 @@ header a, header a:hover {color:#333;}
 //.site-menu a:hover {color:#52A9D4}
 .site-menu a.active {color:#52A9D4;}
 .site-menu a .site-menu-label {font-size:14px;}
+
+// form
+.error-msg {color:#a94442; margin-top:5px;}
 
 // portfolio
 .portfolio-group {margin:25px 0 15px 0;}
