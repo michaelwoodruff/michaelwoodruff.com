@@ -60,35 +60,40 @@
     <div class="row">
         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-            <form id="woodycontact" method="POST" class="form-validate">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" class="form-control required" data-msg="Please enter <b>your name</b>">
-                </div>
-                <div class="form-group">
-                    <input type="email" name="_replyto" placeholder="Your Email" class="form-control required email" data-msg="Please enter a valid <b>email</b>">
-                </div>
-                <div class="form-group">
-                    <textarea name="message" placeholder="Your Message"class="form-control required" rows="6" data-msg="Please enter <b>your message</b>"></textarea>
-                </div>
-                <input type="hidden" name="_subject" value="Website contact">
-                <input type="hidden" name="_next" value="http://michaelwoodruff.com/thanks.html">
-                <input type="text" name="_gotcha" style="display:none">
-                <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4">
-                        <button class="btn btn-block btn-default gutter-bottom" type="submit"><i class="fa fa-envelope-o"></i> Send Message</button>
-                    </div>
-                </div>
-            </form>
+            <div class="alert alert-success text-center">
+                <h4><b><i class="fa fa-check"></i> Your Message Was Successfuly Sent</b></h4>
+                <p>Thanks for sending me a message. I'll get back to you as soon as I get a chance.</p>
+            </div>
 
-        </div> <!-- col -->
-    </div> <!-- row -->
+        </div>
+    </div>
 
-    <p class="text-center">Contact me on  <a href="https://www.linkedin.com/in/michaelwoodruff"><i class="fa fa-linkedin-square"></i>  LinkedIn</a> as well.</p>
+    <div class="row gutter-top">
+        <div class="col-sm-4 col-sm-offset-4">
 
-    <script>
-        var woodycontact =  document.getElementById('woodycontact');
-        woodycontact.setAttribute('action', '//formspree.io/' + 'michael.woodruff' + '@' + 'gmail' + '.' + 'com');
-    </script>
+            <div class="row">
+                <div class="col-xs-2 col-md-2">
+                    <a href="https://www.linkedin.com/in/michaelwoodruff"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                </div>
+                <div class="col-xs-2 col-md-2 text-center">
+                    <a href="https://twitter.com/michaelwoodruff/"><i class="fa fa-twitter fa-3x"></i></a>
+                </div>
+                <div class="col-xs-2 col-md-2 text-center">
+                    <a href="https://dribbble.com/michaelwoodruff/"><i class="fa fa-dribbble fa-3x"></i></a>
+                </div>
+                <div class="col-xs-2 col-md-2 text-center">
+                    <a href="https://github.com/michaelwoodruff/"><i class="fa fa-github fa-3x"></i></a>
+                </div>
+                <div class="col-xs-2 col-md-2 text-center">
+                    <a href="https://pinboard.in/u:michaelwoodruff/"><i class="fa fa-thumb-tack fa-3x"></i></a>
+                </div>
+                <div class="col-xs-2 col-md-2 text-center">
+                    <a href="https://getpocket.com/@michaelwoodruff"><i class="fa fa-get-pocket fa-3x"></i></a>
+                </div>
+            </div> <!-- row -->
+
+        </div>
+    </div>
 
 </div> <!-- container -->
 </div> <!-- page -->

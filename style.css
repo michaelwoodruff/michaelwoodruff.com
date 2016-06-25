@@ -49,6 +49,9 @@ h2 span {
 .gutter-bottom {
   margin-bottom: 15px; }
 
+.gutter-top {
+  margin-top: 15px; }
+
 /* header */
 header {
   text-align: center;
