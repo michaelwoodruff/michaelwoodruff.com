@@ -90,7 +90,7 @@ header a, header a:hover {
   color: #52A9D4;
   border-color: #52A9D4; }
 
-.btn-woody:hover, .btn-woody:focus {
+.btn-woody:hover, .btn-woody:focus, .btn-woody:active {
   background: #52A9D4;
   color: #fff;
   border-color: #52A9D4; }
