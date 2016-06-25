@@ -117,9 +117,6 @@ function instapaperrssfeedsetup() {
 }
 */
 
-var woodycontact =  document.getElementById('woodycontact');
-woodycontact.setAttribute('action', '//formspree.io/' + 'michael.woodruff' + '@' + 'gmail' + '.' + 'com');
-
 $(document).ready(function () {
 
 	$.validator.setDefaults({
@@ -147,14 +144,9 @@ $(document).ready(function () {
 
 
     var currentURL = location.pathname;
+	console.log("currentURL: " + currentURL);
 	$('.site-menu a[href="' + currentURL + '"]').addClass('active');
 
 
 
 });
-
-window.onload = function () {
-	pinboardrssfeedsetup();
-	githubrssfeedsetup();
-    instapaperrssfeedsetup();
-};
