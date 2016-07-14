@@ -99,19 +99,23 @@ header a, header a:hover {
   margin: 25px 0 15px 0; }
 
 .portfolio-group-item {
+  border-top: 1px solid #ddd;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   position: relative;
   margin-bottom: 30px;
-  border-radius: 5px;
-  border: 2px solid #eee;
   background: #fff;
   height: 100px;
   text-align: center; }
+
+.portfolio-group-item svg {
+  width: 65%; }
 
 .portfolio-group-item a:last-child {
   font-weight: bold; }
 
 .portfolio-group-item.portfolio-group-disabled {
-  background: #fff; }
+  background: #fff;
+  color: #ccc; }
 
 .portfolio-group-item.portfolio-group-disabled .portfolio-name {
   color: #ccc; }
@@ -131,9 +135,6 @@ header a, header a:hover {
   text-decoration: none;
   color: #333; }
 
-.portfolio-group-item:hover {
-  border-color: #52A9D4; }
-
 .portfolio-link {
   margin: 0;
   position: absolute;
@@ -148,77 +149,95 @@ header a, header a:hover {
 
 .portfolio-group-item:hover .portfolio-link {
   transition: all 0.3s ease 0s;
-  transform: translateY(-15px);
+  transform: translateY(-20px);
   opacity: 1; }
 
-.portfolio-dawn svg {
-  width: 70%; }
+.portfolio-touchofclass:hover svg {
+  fill: #951F2B; }
 
-.portfolio-dawn:hover {
-  border-color: #f65c7b; }
+.portfolio-touchofclass a {
+  color: #951F2B; }
+
+.portfolio-dawn svg {
+  width: 60%; }
 
 .portfolio-dawn:hover svg {
   fill: #f65c7b; }
 
-.portfolio-dawn a {
-  color: #575a5d; }
-
-.portfolio-pear svg {
-  width: 70%; }
-
-.portfolio-pear:hover {
-  border-color: #91B7BE; }
+.portfolio-dawn:hover a {
+  color: #f65c7b; }
 
 .portfolio-pear:hover svg {
   fill: #91B7BE; }
 
-.portfolio-pear a {
+.portfolio-pear:hover a {
   color: #91B7BE; }
 
-.portfolio-hale svg {
-  width: 40%; }
+.portfolio-ramp:hover svg {
+  fill: #1B406F; }
 
-.portfolio-hale:hover {
-  border-color: #d34927; }
+.portfolio-ramp:hover a {
+  color: #1B406F; }
+
+.portfolio-hale svg {
+  width: 35%; }
 
 .portfolio-hale:hover svg {
   fill: #d34927; }
 
-.portfolio-hale a {
-  color: #584e3f; }
+.portfolio-hale:hover a {
+  color: #d34927; }
 
-.portfolio-bern svg {
-  width: 80%; }
-
-svg:hover .goldb {
+.portfolio-bern:hover svg {
   fill: #D59F0F; }
 
-.portfolio-bern:hover {
-  border-color: #D59F0F; }
-
-.portfolio-bern a {
+.portfolio-bern:hover a {
   color: #D59F0F; }
 
-.portfolio-arms svg {
-  width: 80%; }
-
-.portfolio-arms:hover {
-  border-color: #918a6f; }
-
-.portfolio-arms a {
-  color: #918a6f; }
-
-.portfolio-rtea svg {
-  width: 80%; }
-
-.portfolio-rtea:hover {
-  border-color: #566c11; }
-
 .portfolio-arms:hover svg {
-  fill: #b32317; }
+  fill: #ff7f00; }
 
-.portfolio-rtea a {
+.portfolio-arms:hover a {
+  color: #ff7f00; }
+
+.portfolio-rtea:hover svg {
+  fill: #566c11; }
+
+.portfolio-rtea:hover a {
   color: #566c11; }
+
+.portfolio-travers:hover svg {
+  fill: #053979; }
+
+.portfolio-travers:hover a {
+  color: #053979; }
+
+.portfolio-wigs:hover a {
+  color: #f88379; }
+
+.portfolio-wigs svg {
+  fill: #aaa; }
+
+.portfolio-wigs svg:hover {
+  fill: #f88379; }
+
+.portfolio-kalio:hover svg {
+  fill: #6cb33f; }
+
+.portfolio-kalio:hover a {
+  color: #6cb33f; }
+
+.portfolio-jbbq:hover svg {
+  fill: #b04b3c; }
+
+.portfolio-jbbq:hover a {
+  color: #b04b3c; }
+
+.portfolio-acorn:hover svg {
+  fill: #810c0c; }
+
+.portfolio-acorn:hover a {
+  color: #810c0c; }
 
 .social-site {
   background: #52a9d4;

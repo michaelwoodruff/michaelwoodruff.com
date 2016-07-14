@@ -36,47 +36,83 @@ header a, header a:hover {color:#333;}
 
 // portfolio
 .portfolio-group {margin:25px 0 15px 0;}
-.portfolio-group-item {position:relative; margin-bottom:30px; border-radius:5px; border:2px solid #eee; background:#fff; height:100px; text-align:center;}
+.portfolio-group-item {border-top:1px solid #ddd; box-shadow: 0 1px 2px 0 rgba(0,0,0,.14), 0 2px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); position:relative; margin-bottom:30px; background:#fff; height:100px; text-align:center;}
+//.portfolio-group-item:hover {border-color:#ddd;}
+.portfolio-group-item svg {width:65%;}
 .portfolio-group-item a:last-child {font-weight:bold;}
-.portfolio-group-item.portfolio-group-disabled {background:#fff;}
+.portfolio-group-item.portfolio-group-disabled {background:#fff; color:#ccc;}
 .portfolio-group-item.portfolio-group-disabled .portfolio-name {color:#ccc;}
 .portfolio-name {font-family:'Archivo Narrow', sans-serif; font-size:32px;text-align:center; margin:0; width:100%; font-weight:bold; color:#333;}
 .portfolio-name a {display: block; padding:10px 0; text-decoration:none; color:#333;}
-.portfolio-group-item:hover {border-color:#52A9D4;}
 .portfolio-link {margin:0; position:absolute; bottom:-5px; width:100%; opacity:0;}
 .portfolio-link a {color:#52A9D4; display:block; line-height:22px;}
-//.portfolio-link a:hover {color:#52A9D4;}
-.portfolio-group-item:hover .portfolio-link {transition:all 0.3s ease 0s; transform:translateY(-15px); opacity:1;}
+.portfolio-group-item:hover .portfolio-link {transition:all 0.3s ease 0s; transform:translateY(-20px); opacity:1;}
 
-.portfolio-dawn svg {width:70%;}
-.portfolio-dawn:hover {border-color:#f65c7b;}
-.portfolio-dawn:hover svg {fill:#f65c7b;} //pink
-.portfolio-dawn a {color:#575a5d;} //gray
+//.portfolio-touchofclass svg {width:85%;}
+//.portfolio-touchofclass:hover {border-color:#951F2B;}
+.portfolio-touchofclass:hover svg {fill:#951F2B;}
+.portfolio-touchofclass a {color:#951F2B;}
 
-.portfolio-pear svg {width:70%;}
-.portfolio-pear:hover {border-color:#91B7BE;}
+.portfolio-dawn svg {width:60%;}
+//.portfolio-dawn:hover {border-color:#f65c7b;}
+.portfolio-dawn:hover svg {fill:#f65c7b;}
+.portfolio-dawn:hover a {color:#f65c7b;}
+
+//.portfolio-pear svg {width:75%;}
+//.portfolio-pear:hover {border-color:#91B7BE;}
 .portfolio-pear:hover svg {fill:#91B7BE;}
-.portfolio-pear a {color:#91B7BE;}
+.portfolio-pear:hover a {color:#91B7BE;}
 
-.portfolio-hale svg {width:40%;}
-.portfolio-hale:hover {border-color:#d34927;}
+//.portfolio-ramp svg {width:75%;}
+//.portfolio-ramp:hover {border-color:#1B406F;}
+.portfolio-ramp:hover svg {fill:#1B406F;}
+.portfolio-ramp:hover a {color:#1B406F;}
+
+.portfolio-hale svg {width:35%;}
+//.portfolio-hale:hover {border-color:#d34927;}
 .portfolio-hale:hover svg {fill:#d34927;}
-.portfolio-hale a {color:#584e3f;}
+.portfolio-hale:hover a {color:#d34927;}
 
-.portfolio-bern svg {width:80%;}
-svg:hover .goldb {fill:#D59F0F;}
-.portfolio-bern:hover {border-color:#D59F0F;}
-.portfolio-bern a {color:#D59F0F;}
+//.portfolio-bern svg {width:80%;}
+//.portfolio-bern:hover {border-color:#D59F0F;}
+.portfolio-bern:hover svg {fill:#D59F0F;}
+.portfolio-bern:hover a {color:#D59F0F;}
 
-.portfolio-arms svg {width:80%;}
-.portfolio-arms:hover {border-color:#918a6f;}
-//.portfolio-arms:hover svg {fill:#ff7f00;}
-.portfolio-arms a {color:#918a6f;}
+//.portfolio-arms svg {width:85%;}
+//.portfolio-arms:hover {border-color:#ff7f00;}
+.portfolio-arms:hover svg {fill:#ff7f00;}
+.portfolio-arms:hover a {color:#ff7f00;}
 
-.portfolio-rtea svg {width:80%;}
-.portfolio-rtea:hover {border-color:#566c11;}
-.portfolio-arms:hover svg {fill:#b32317;}
-.portfolio-rtea a {color:#566c11;}
+//.portfolio-rtea svg {width:80%;}
+//.portfolio-rtea:hover {border-color:#566c11;}
+.portfolio-rtea:hover svg {fill:#566c11;}
+.portfolio-rtea:hover a {color:#566c11;}
+
+//.portfolio-travers svg {width:80%;}
+//.portfolio-travers:hover {border-color:#053979;}
+.portfolio-travers:hover svg {fill:#053979;}
+.portfolio-travers:hover a {color:#053979;}
+
+//.portfolio-wigs svg {width:80%;}
+.portfolio-wigs:hover a {color:#f88379;}
+.portfolio-wigs svg {fill:#aaa}
+.portfolio-wigs svg:hover  {fill:#f88379;}
+
+//.portfolio-kalio svg {width:80%;}
+//.portfolio-kalio:hover {border-color:#6cb33f;}
+.portfolio-kalio:hover svg {fill:#6cb33f;}
+.portfolio-kalio:hover a {color:#6cb33f;}
+
+//.portfolio-jbbq svg {width:80%;}
+//.portfolio-jbbq:hover {border-color:#b04b3c;}
+.portfolio-jbbq:hover svg {fill:#b04b3c;}
+.portfolio-jbbq:hover a {color:#b04b3c;}
+
+//.portfolio-acorn svg {width:80%;}
+//.portfolio-acorn:hover {border-color:#810c0c;}
+.portfolio-acorn:hover svg {fill:#810c0c;}
+.portfolio-acorn:hover a {color:#810c0c;}
+
 
 
 .social-site {background:#52a9d4; color:#fff; padding:7px; text-align:center; margin:15px -15px 10px; font-size:22px; font-family: 'Archivo Narrow', sans-serif;}
