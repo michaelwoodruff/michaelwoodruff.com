@@ -88,6 +88,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/jbbq-logo@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20890,
+		"inputAbbreviatedPath": "\/images\/jbbq-logo@2x.png",
+		"outputAbbreviatedPath": "\/images\/jbbq-logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/jbbq.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -106,6 +117,17 @@
 		"initialSize": 7884,
 		"inputAbbreviatedPath": "\/images\/kaliosm.png",
 		"outputAbbreviatedPath": "\/images\/kaliosm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8897,
+		"inputAbbreviatedPath": "\/images\/logo.png",
+		"outputAbbreviatedPath": "\/images\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -150,6 +172,17 @@
 		"initialSize": 6477,
 		"inputAbbreviatedPath": "\/images\/pear.png",
 		"outputAbbreviatedPath": "\/images\/pear.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ramp-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28134,
+		"inputAbbreviatedPath": "\/images\/ramp-logo.png",
+		"outputAbbreviatedPath": "\/images\/ramp-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
