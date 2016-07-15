@@ -47,7 +47,7 @@ h2 span {
   min-height: 300px;
   border: 7px solid #52A9D4; }
 
-.page .container {
+.page .container, .page .container-fluid {
   padding: 60px 15px 20px; }
 
 .gutter-bottom {
