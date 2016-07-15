@@ -11,25 +11,27 @@ var githubfeedcontainer = document.getElementById("githubfeed");
 var githubfeedurl = "https://github.com/michaelwoodruff.atom?nocache=" + (new Date()).getTime();
 var githubfeedlimit = 5;
 var githubrssoutput = "";
+
 function displaygithubfeed(result) {
-	if (!result.error) {
-	 	var thegithubfeeds = result.feed.entries;
-		githubrssoutput += "<ul>";
-		for (var i = 0; i < thegithubfeeds.length; i++) {
-			pubdate = new Date(thegithubfeeds[i].publishedDate),
-			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
-			githubrssoutput += "<li><a href='" + thegithubfeeds[i].link + "'><i class=\"fa fa-github fa-lg\"></i><div class=\"post\">" + thegithubfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
-		}
-		githubrssoutput += "</ul>";
-		githubfeedcontainer.innerHTML = githubrssoutput;
-	} else {
-		console.log("Error fetching GitHub feed!");
-	}
+    if (!result.error) {
+        var thegithubfeeds = result.feed.entries;
+        githubrssoutput += "<ul>";
+        for (var i = 0; i < thegithubfeeds.length; i++) {
+            pubdate = new Date(thegithubfeeds[i].publishedDate),
+                pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
+                githubrssoutput += "<li><a href='" + thegithubfeeds[i].link + "'><i class=\"fa fa-github fa-lg\"></i><div class=\"post\">" + thegithubfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
+        }
+        githubrssoutput += "</ul>";
+        githubfeedcontainer.innerHTML = githubrssoutput;
+    } else {
+        console.log("Error fetching GitHub feed!");
+    }
 }
+
 function githubrssfeedsetup() {
-	var githubfeedpointer = new google.feeds.Feed(githubfeedurl);
-	githubfeedpointer.setNumEntries(githubfeedlimit);
-	githubfeedpointer.load(displaygithubfeed);
+    var githubfeedpointer = new google.feeds.Feed(githubfeedurl);
+    githubfeedpointer.setNumEntries(githubfeedlimit);
+    githubfeedpointer.load(displaygithubfeed);
 }
 
 
@@ -38,25 +40,27 @@ var pinboardfeedcontainer = document.getElementById("pinboardfeed");
 var pinboardfeedurl = "https://feeds.pinboard.in/rss/u:michaelwoodruff/?nocache=" + (new Date()).getTime();
 var pinboardfeedlimit = 5;
 var pinboardrssoutput = "";
+
 function displaypinboardfeed(result) {
-	if (!result.error) {
-	 	var thepinboardfeeds = result.feed.entries;
-		pinboardrssoutput += "<ul>";
-		for (var i = 0; i < thepinboardfeeds.length; i++) {
-			pubdate = new Date(thepinboardfeeds[i].publishedDate),
-			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
-			pinboardrssoutput += "<li><a href='" + thepinboardfeeds[i].link + "'><i class=\"fa fa-thumb-tack fa-lg\"></i><div class=\"post\">" + thepinboardfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
-		}
-		pinboardrssoutput += "</ul>";
-		pinboardfeedcontainer.innerHTML = pinboardrssoutput;
-	} else {
-		console.log("Error fetching pinboard feed!");
-	}
+    if (!result.error) {
+        var thepinboardfeeds = result.feed.entries;
+        pinboardrssoutput += "<ul>";
+        for (var i = 0; i < thepinboardfeeds.length; i++) {
+            pubdate = new Date(thepinboardfeeds[i].publishedDate),
+                pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
+                pinboardrssoutput += "<li><a href='" + thepinboardfeeds[i].link + "'><i class=\"fa fa-thumb-tack fa-lg\"></i><div class=\"post\">" + thepinboardfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
+        }
+        pinboardrssoutput += "</ul>";
+        pinboardfeedcontainer.innerHTML = pinboardrssoutput;
+    } else {
+        console.log("Error fetching pinboard feed!");
+    }
 }
+
 function pinboardrssfeedsetup() {
-	var pinboardfeedpointer = new google.feeds.Feed(pinboardfeedurl);
-	pinboardfeedpointer.setNumEntries(pinboardfeedlimit);
-	pinboardfeedpointer.load(displaypinboardfeed);
+    var pinboardfeedpointer = new google.feeds.Feed(pinboardfeedurl);
+    pinboardfeedpointer.setNumEntries(pinboardfeedlimit);
+    pinboardfeedpointer.load(displaypinboardfeed);
 }
 
 /* pocket */
@@ -65,25 +69,27 @@ var pocketfeedcontainer = document.getElementById("pocketfeed");
 var pocketfeedurl = "https://getpocket.com/users/michaelwoodruff/feed/all?nocache=" + (new Date()).getTime();
 var pocketfeedlimit = 5;
 var pocketrssoutput = "";
+
 function displaypocketfeed(result) {
-	if (!result.error) {
-	 	var pocketfeeds = result.feed.entries;
-		pocketrssoutput += "<ul>";
-		for (var i = 0; i < pocketfeeds.length; i++) {
-			pubdate = new Date(pocketfeeds[i].publishedDate),
-			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
-			pocketrssoutput += "<li><a href='" + pocketfeeds[i].link + "'><i class=\"fa fa-get-pocket\"></i><div class=\"post\">" + pocketfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
-		}
-		pocketrssoutput += "</ul>";
-		pocketfeedcontainer.innerHTML = pocketrssoutput;
-	} else {
-		console.log("Error fetching pocket feed!");
-	}
+    if (!result.error) {
+        var pocketfeeds = result.feed.entries;
+        pocketrssoutput += "<ul>";
+        for (var i = 0; i < pocketfeeds.length; i++) {
+            pubdate = new Date(pocketfeeds[i].publishedDate),
+                pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'), // August 25th 2014, 12:49:58 am
+                pocketrssoutput += "<li><a href='" + pocketfeeds[i].link + "'><i class=\"fa fa-get-pocket\"></i><div class=\"post\">" + pocketfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
+        }
+        pocketrssoutput += "</ul>";
+        pocketfeedcontainer.innerHTML = pocketrssoutput;
+    } else {
+        console.log("Error fetching pocket feed!");
+    }
 }
+
 function instapaperrssfeedsetup() {
-	var pocketfeedpointer = new google.feeds.Feed(pocketfeedurl);
-	pocketfeedpointer.setNumEntries(pocketfeedlimit);
-	pocketfeedpointer.load(displaypocketfeed);
+    var pocketfeedpointer = new google.feeds.Feed(pocketfeedurl);
+    pocketfeedpointer.setNumEntries(pocketfeedlimit);
+    pocketfeedpointer.load(displaypocketfeed);
 }
 
 
@@ -117,9 +123,28 @@ function instapaperrssfeedsetup() {
 }
 */
 
-$(document).ready(function () {
 
-	$.validator.setDefaults({
+$(document).ready(function() {
+
+    var scroll = $(document).scrollTop();
+    var headerHeight = $('.page-header').outerHeight();
+
+    $(window).scroll(function() {
+        var scrolled = $(document).scrollTop();
+        if (scrolled > headerHeight) {
+            $('.page-header').addClass('off-canvas');
+        } else {
+            $('.page-header').removeClass('off-canvas');
+        }
+        if (scrolled > scroll) {
+            $('.page-header').removeClass('fixed');
+        } else {
+            $('.page-header').addClass('fixed');
+        }
+        scroll = $(document).scrollTop();
+    });
+
+    $.validator.setDefaults({
         highlight: function(element) {
             $(element).closest('.form-group').addClass('has-error');
         },
@@ -137,15 +162,17 @@ $(document).ready(function () {
         }
     });
 
-	// generic validation
-	$(".form-validate").each(function() { // attach to all form elements on page
-		$(this).validate();
-	});
+    // generic validation
+    $(".form-validate").each(function() { // attach to all form elements on page
+        $(this).validate();
+    });
 
 
     var currentURL = location.pathname;
-	console.log("currentURL: " + currentURL);
-	$('.site-menu a[href="' + currentURL + '"]').addClass('active');
+    console.log("currentURL: " + currentURL);
+    $('.site-menu a[href="' + currentURL + '"]').addClass('active');
+
+
 
 
 

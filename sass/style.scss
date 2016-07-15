@@ -13,7 +13,8 @@ h2 span {color:#52a9d4;}
 
 /* page */
 .wrapper {margin:0; border:7px solid #52A9D4;}
-.page {padding:20px 0; background:#fff; min-height:300px;}
+.page {padding:20px 0; background:#fff; min-height:300px; border:7px solid #52A9D4;}
+.page .container {padding-top: 60px;}
 .gutter-bottom {margin-bottom: 15px;}
 .gutter-top {margin-top: 15px;}
 
@@ -24,6 +25,33 @@ header a, header a:hover {color:#333;}
 //.site-menu a:hover {color:#52A9D4}
 .site-menu a.active {color:#52A9D4;}
 .site-menu a .site-menu-label {font-size:14px;}
+
+.site-menu {}
+.page-header {
+  position: fixed;
+  // left: 0;
+  // right:0 ;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-transition: top 0.6s;
+  -moz-transition: top 0.6s;
+  transition: top 0.6s;
+  z-index: 100;
+
+  padding-bottom: 0;
+  margin: 0 0 0;
+  border-bottom: 0;
+  border-top: 7px solid #52A9D4;
+  border-left:7px solid #52A9D4;
+  border-right:7px solid #52A9D4;
+}
+.page-header.off-canvas {top: -105px;}
+.page-header.fixed {
+  top: 0;
+  z-index: 9999;
+}
+
 
 // form
 .error-msg {color:#a94442; margin-top:5px;}
@@ -205,6 +233,6 @@ footer a, footer a:hover {color:#333;}
 @media (min-width: 1200px ) {
 
 	.bio {margin:0 0 20px 0;}
-	.wrapper {width:1200px; margin:15px auto;}
+	//.wrapper {width:1200px; margin:15px auto;}
 
 }

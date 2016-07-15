@@ -44,7 +44,11 @@ h2 span {
 .page {
   padding: 20px 0;
   background: #fff;
-  min-height: 300px; }
+  min-height: 300px;
+  border: 7px solid #52A9D4; }
+
+.page .container {
+  padding-top: 60px; }
 
 .gutter-bottom {
   margin-bottom: 15px; }
@@ -76,6 +80,29 @@ header a, header a:hover {
 
 .site-menu a .site-menu-label {
   font-size: 14px; }
+
+.page-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-transition: top 0.6s;
+  -moz-transition: top 0.6s;
+  transition: top 0.6s;
+  z-index: 100;
+  padding-bottom: 0;
+  margin: 0 0 0;
+  border-bottom: 0;
+  border-top: 7px solid #52A9D4;
+  border-left: 7px solid #52A9D4;
+  border-right: 7px solid #52A9D4; }
+
+.page-header.off-canvas {
+  top: -105px; }
+
+.page-header.fixed {
+  top: 0;
+  z-index: 9999; }
 
 .error-msg {
   color: #a94442;
@@ -447,8 +474,4 @@ footer a, footer a:hover {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .bio {
-    margin: 0 0 20px 0; }
-
-  .wrapper {
-    width: 1200px;
-    margin: 15px auto; } }
+    margin: 0 0 20px 0; } }
