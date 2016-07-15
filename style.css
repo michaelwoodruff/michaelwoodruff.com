@@ -42,13 +42,13 @@ h2 span {
   border: 7px solid #52A9D4; }
 
 .page {
-  padding: 20px 0;
+  padding: 20px 0 0;
   background: #fff;
   min-height: 300px;
   border: 7px solid #52A9D4; }
 
 .page .container {
-  padding-top: 60px; }
+  padding: 60px 20px 20px; }
 
 .gutter-bottom {
   margin-bottom: 15px; }
