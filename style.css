@@ -132,7 +132,7 @@ header a, header a:hover {
   border-top: 1px solid #ddd;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   background: #fff;
   height: 100px;
   text-align: center; }
@@ -177,10 +177,8 @@ header a, header a:hover {
   display: block;
   line-height: 22px; }
 
-.portfolio-group-item:hover .portfolio-link {
-  transition: all 0.3s ease 0s;
-  transform: translateY(-20px);
-  opacity: 1; }
+.portfolio-link a:hover {
+  text-decoration: underline; }
 
 .portfolio-touchofclass:hover svg {
   fill: #951F2B; }
@@ -189,7 +187,7 @@ header a, header a:hover {
   color: #951F2B; }
 
 .portfolio-dawn svg {
-  width: 60%; }
+  width: 55%; }
 
 .portfolio-dawn:hover svg {
   fill: #f65c7b; }
@@ -224,7 +222,7 @@ header a, header a:hover {
 
 .portfolio-ramp a img {
   display: block;
-  padding: 30px; }
+  padding: 15%; }
 
 .portfolio-ramp:hover svg {
   fill: #1B406F; }
@@ -242,7 +240,7 @@ header a, header a:hover {
   display: inline-block; }
 
 .portfolio-hale svg {
-  width: 35%; }
+  width: 30%; }
 
 .portfolio-hale:hover svg {
   fill: #d34927; }
@@ -271,7 +269,7 @@ header a, header a:hover {
 .portfolio-travers:hover svg {
   fill: #053979; }
 
-.portfolio-travers:hover a, .portfolio-travers {
+.portfolio-travers:hover a {
   color: #053979; }
 
 .portfolio-wigs:hover a, .portfolio-wigs {
@@ -475,6 +473,11 @@ footer a, footer a:hover {
     height: 200px; } }
 /* Small devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
+  .portfolio-group-item:hover .portfolio-link {
+    transition: all 0.3s ease 0s;
+    transform: translateY(-20px);
+    opacity: 1; }
+
   .logo {
     width: 100%; }
 
