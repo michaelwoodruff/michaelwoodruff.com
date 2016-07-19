@@ -81,7 +81,7 @@ header a, header a:hover {color:#333;}
 //.portfolio-touchofclass svg {width:85%;}
 //.portfolio-touchofclass:hover {border-color:#951F2B;}
 .portfolio-touchofclass:hover svg {fill:#951F2B;}
-.portfolio-touchofclass a {color:#951F2B;}
+.portfolio-touchofclass a, .portfolio-touchofclass {color:#951F2B;}
 
 .portfolio-dawn svg {width:60%;}
 //.portfolio-dawn:hover {border-color:#f65c7b;}
@@ -93,10 +93,20 @@ header a, header a:hover {color:#333;}
 .portfolio-pear:hover svg {fill:#91B7BE;}
 .portfolio-pear:hover a {color:#91B7BE;}
 
-//.portfolio-ramp svg {width:75%;}
-//.portfolio-ramp:hover {border-color:#1B406F;}
+
+.portfolio-jbbq a img {display:block; padding:25%;}
+.portfolio-jbbq:hover svg {fill:#b04b3c;}
+.portfolio-jbbq:hover a {color:#b04b3c;}
+.portfolio-jbbq img:last-child {display:none}
+.portfolio-jbbq a:hover img:first-child {display:none}
+.portfolio-jbbq a:hover img:last-child {display:inline-block}
+
+.portfolio-ramp a img {display:block; padding:30px;}
 .portfolio-ramp:hover svg {fill:#1B406F;}
 .portfolio-ramp:hover a {color:#1B406F;}
+.portfolio-ramp img:last-child {display:none}
+.portfolio-ramp a:hover img:first-child {display:none}
+.portfolio-ramp a:hover img:last-child {display:inline-block}
 
 .portfolio-hale svg {width:35%;}
 //.portfolio-hale:hover {border-color:#d34927;}
@@ -121,10 +131,10 @@ header a, header a:hover {color:#333;}
 //.portfolio-travers svg {width:80%;}
 //.portfolio-travers:hover {border-color:#053979;}
 .portfolio-travers:hover svg {fill:#053979;}
-.portfolio-travers:hover a {color:#053979;}
+.portfolio-travers:hover a, .portfolio-travers {color:#053979;}
 
 //.portfolio-wigs svg {width:80%;}
-.portfolio-wigs:hover a {color:#f88379;}
+.portfolio-wigs:hover a, .portfolio-wigs {color:#f88379;}
 .portfolio-wigs svg {fill:#aaa}
 .portfolio-wigs svg:hover  {fill:#f88379;}
 
@@ -133,10 +143,7 @@ header a, header a:hover {color:#333;}
 .portfolio-kalio:hover svg {fill:#6cb33f;}
 .portfolio-kalio:hover a {color:#6cb33f;}
 
-//.portfolio-jbbq svg {width:80%;}
-//.portfolio-jbbq:hover {border-color:#b04b3c;}
-.portfolio-jbbq:hover svg {fill:#b04b3c;}
-.portfolio-jbbq:hover a {color:#b04b3c;}
+
 
 //.portfolio-acorn svg {width:80%;}
 //.portfolio-acorn:hover {border-color:#810c0c;}

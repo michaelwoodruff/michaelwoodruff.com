@@ -185,7 +185,7 @@ header a, header a:hover {
 .portfolio-touchofclass:hover svg {
   fill: #951F2B; }
 
-.portfolio-touchofclass a {
+.portfolio-touchofclass a, .portfolio-touchofclass {
   color: #951F2B; }
 
 .portfolio-dawn svg {
@@ -203,11 +203,43 @@ header a, header a:hover {
 .portfolio-pear:hover a {
   color: #91B7BE; }
 
+.portfolio-jbbq a img {
+  display: block;
+  padding: 25%; }
+
+.portfolio-jbbq:hover svg {
+  fill: #b04b3c; }
+
+.portfolio-jbbq:hover a {
+  color: #b04b3c; }
+
+.portfolio-jbbq img:last-child {
+  display: none; }
+
+.portfolio-jbbq a:hover img:first-child {
+  display: none; }
+
+.portfolio-jbbq a:hover img:last-child {
+  display: inline-block; }
+
+.portfolio-ramp a img {
+  display: block;
+  padding: 30px; }
+
 .portfolio-ramp:hover svg {
   fill: #1B406F; }
 
 .portfolio-ramp:hover a {
   color: #1B406F; }
+
+.portfolio-ramp img:last-child {
+  display: none; }
+
+.portfolio-ramp a:hover img:first-child {
+  display: none; }
+
+.portfolio-ramp a:hover img:last-child {
+  display: inline-block; }
 
 .portfolio-hale svg {
   width: 35%; }
@@ -239,10 +271,10 @@ header a, header a:hover {
 .portfolio-travers:hover svg {
   fill: #053979; }
 
-.portfolio-travers:hover a {
+.portfolio-travers:hover a, .portfolio-travers {
   color: #053979; }
 
-.portfolio-wigs:hover a {
+.portfolio-wigs:hover a, .portfolio-wigs {
   color: #f88379; }
 
 .portfolio-wigs svg {
@@ -256,12 +288,6 @@ header a, header a:hover {
 
 .portfolio-kalio:hover a {
   color: #6cb33f; }
-
-.portfolio-jbbq:hover svg {
-  fill: #b04b3c; }
-
-.portfolio-jbbq:hover a {
-  color: #b04b3c; }
 
 .portfolio-acorn:hover svg {
   fill: #810c0c; }
