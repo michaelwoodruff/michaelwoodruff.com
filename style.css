@@ -132,16 +132,10 @@ header a, header a:hover {
   border-top: 1px solid #ddd;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   background: #fff;
-  height: 100px;
+  height: 80px;
   text-align: center; }
-
-.portfolio-group-item svg {
-  width: 65%; }
-
-.portfolio-group-item a:last-child {
-  font-weight: bold; }
 
 .portfolio-group-item.portfolio-group-disabled {
   background: #fff;
@@ -159,9 +153,11 @@ header a, header a:hover {
   font-weight: bold;
   color: #333; }
 
+.portfolio-name svg {
+  width: 75%; }
+
 .portfolio-name a {
   display: block;
-  padding: 10px 0;
   text-decoration: none;
   color: #333; }
 
@@ -180,6 +176,9 @@ header a, header a:hover {
 .portfolio-link a:hover {
   text-decoration: underline; }
 
+.portfolio-touchofclass svg {
+  width: 70%; }
+
 .portfolio-touchofclass:hover svg {
   fill: #951F2B; }
 
@@ -187,13 +186,16 @@ header a, header a:hover {
   color: #951F2B; }
 
 .portfolio-dawn svg {
-  width: 55%; }
+  width: 50%; }
 
 .portfolio-dawn:hover svg {
   fill: #f65c7b; }
 
 .portfolio-dawn:hover a {
   color: #f65c7b; }
+
+.portfolio-pear svg {
+  width: 50%; }
 
 .portfolio-pear:hover svg {
   fill: #91B7BE; }
@@ -203,10 +205,7 @@ header a, header a:hover {
 
 .portfolio-jbbq a img {
   display: block;
-  padding: 25%; }
-
-.portfolio-jbbq:hover svg {
-  fill: #b04b3c; }
+  width: 50%; }
 
 .portfolio-jbbq:hover a {
   color: #b04b3c; }
@@ -218,14 +217,11 @@ header a, header a:hover {
   display: none; }
 
 .portfolio-jbbq a:hover img:last-child {
-  display: inline-block; }
+  display: block; }
 
 .portfolio-ramp a img {
   display: block;
-  padding: 15%; }
-
-.portfolio-ramp:hover svg {
-  fill: #1B406F; }
+  padding: 30px; }
 
 .portfolio-ramp:hover a {
   color: #1B406F; }
@@ -237,7 +233,7 @@ header a, header a:hover {
   display: none; }
 
 .portfolio-ramp a:hover img:last-child {
-  display: inline-block; }
+  display: block; }
 
 .portfolio-hale svg {
   width: 30%; }
@@ -265,6 +261,9 @@ header a, header a:hover {
 
 .portfolio-rtea:hover a {
   color: #566c11; }
+
+.portfolio-travers svg {
+  width: 60%; }
 
 .portfolio-travers:hover svg {
   fill: #053979; }
@@ -418,7 +417,6 @@ a .fa-get-pocket:hover, .social-site.pocket a:hover, .pocket .rss-que a:hover, .
   font-size: 12px;
   margin-top: 2px; }
 
-/*.rss-que a:hover, .rss-que a:hover .fa, .rss-que a:hover .pubdate {text-decoration:none; color:#52a9d4;}*/
 .dribble-shots img {
   border: 1px solid #eee;
   border-radius: 3px;
@@ -470,9 +468,12 @@ footer a, footer a:hover {
     width: 33.333%; }
 
   .portfolio-group-item {
-    height: 200px; } }
+    height: 190px; } }
 /* Small devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
+  .portfolio-group-item {
+    margin-bottom: 20px; }
+
   .portfolio-group-item:hover .portfolio-link {
     transition: all 0.3s ease 0s;
     transform: translateY(-20px);
