@@ -9,7 +9,7 @@ google.load("feeds", "1");
 /* github */
 var githubfeedcontainer = document.getElementById("githubfeed");
 var githubfeedurl = "https://github.com/michaelwoodruff.atom?nocache=" + (new Date()).getTime();
-var githubfeedlimit = 5;
+var githubfeedlimit = 7;
 var githubrssoutput = "";
 
 function displaygithubfeed(result) {
@@ -38,7 +38,7 @@ function githubrssfeedsetup() {
 /* pinboard */
 var pinboardfeedcontainer = document.getElementById("pinboardfeed");
 var pinboardfeedurl = "https://feeds.pinboard.in/rss/u:michaelwoodruff/?nocache=" + (new Date()).getTime();
-var pinboardfeedlimit = 5;
+var pinboardfeedlimit = 7;
 var pinboardrssoutput = "";
 
 function displaypinboardfeed(result) {
@@ -67,7 +67,7 @@ function pinboardrssfeedsetup() {
 // https://getpocket.com/users/michaelwoodruff/feed/all
 var pocketfeedcontainer = document.getElementById("pocketfeed");
 var pocketfeedurl = "https://getpocket.com/users/michaelwoodruff/feed/all?nocache=" + (new Date()).getTime();
-var pocketfeedlimit = 5;
+var pocketfeedlimit = 7;
 var pocketrssoutput = "";
 
 function displaypocketfeed(result) {
