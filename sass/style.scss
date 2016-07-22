@@ -24,15 +24,11 @@ h2 span {color:#52a9d4;}
 header {text-align:center; font-size:16px; font-family:'Archivo Narrow', sans-serif; background:#ededed; border-bottom:1px solid #ddd;}
 header a, header a:hover {color:#333;}
 .site-menu a {color:#000; display:block; padding:10px 0; text-transform: uppercase; text-decoration:none; text-align:center;}
-//.site-menu a:hover {color:#52A9D4}
 .site-menu a.active {color:#52A9D4;}
 .site-menu a .site-menu-label {font-size:14px;}
 
-.site-menu {}
 .page-header {
   position: fixed;
-  // left: 0;
-  // right:0 ;
   top: 0;
   width: 100%;
   box-sizing: border-box;
@@ -40,7 +36,6 @@ header a, header a:hover {color:#333;}
   -moz-transition: top 0.6s;
   transition: top 0.6s;
   z-index: 100;
-
   padding-bottom: 0;
   margin: 0 0 0;
   border-bottom: 0;
@@ -66,7 +61,7 @@ header a, header a:hover {color:#333;}
 
 // portfolio
 .portfolio-group {margin:25px 0 15px 0;}
-.portfolio-group-item {border-top:1px solid #ddd; box-shadow: 0 1px 2px 0 rgba(0,0,0,.14), 0 2px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); position:relative; margin-bottom:15px; background:#fff; height:80px; text-align:center;}
+.portfolio-group-item {height:140px; border-top:1px solid #ddd; box-shadow: 0 1px 2px 0 rgba(0,0,0,.14), 0 2px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); position:relative; margin-bottom:15px; background:#fff; text-align:center; margin-left:auto; margin-right:auto;}
 .portfolio-group-item.portfolio-group-disabled {background:#fff; color:#ccc;}
 .portfolio-group-item.portfolio-group-disabled .portfolio-name {color:#ccc;}
 .portfolio-name {font-family:'Archivo Narrow', sans-serif; font-size:32px;text-align:center; margin:0; width:100%; font-weight:bold; color:#333;}
@@ -88,13 +83,13 @@ header a, header a:hover {color:#333;}
 .portfolio-pear:hover svg {fill:#91B7BE;}
 .portfolio-pear:hover a {color:#91B7BE;}
 
-.portfolio-jbbq a img {display:block; width:50%;}
+.portfolio-jbbq a img {display:block; width:45%;}
 .portfolio-jbbq:hover a {color:#b04b3c;}
 .portfolio-jbbq img:last-child {display:none}
 .portfolio-jbbq a:hover img:first-child {display:none}
 .portfolio-jbbq a:hover img:last-child {display:block}
 
-.portfolio-ramp a img {display:block; padding:30px;}
+.portfolio-ramp a img {display:block; padding:15%;}
 .portfolio-ramp:hover a {color:#1B406F;}
 .portfolio-ramp img:last-child {display:none}
 .portfolio-ramp a:hover img:first-child {display:none}
@@ -188,37 +183,27 @@ footer a, footer a:hover {color:#333;}
 @media (min-width : 321px) {
 	.site-nav li {font-size:18px;}
 	.navbar-site li {width:33.333%;}
-	.portfolio-group-item {height:190px;}
 }
-
 
 /* Small devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
-
+    .portfolio-group-item {height:200px;}
     .portfolio-group-item {margin-bottom:20px;}
     .portfolio-group-item:hover .portfolio-link {transition:all 0.3s ease 0s; transform:translateY(-20px); opacity:1;}
 	.logo {width:100%;}
     .social-site {background:none; color:#333;}
     .social-site a {color:#333;}
-	//h2 {font-size: 22px;}
-
 	.site-menu .fa { font-size: 1.33333333em; line-height: .75em; vertical-align: -15%;} /* fa-lg */
 	.site-menu a .site-menu-label {font-size:16px;}
-
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px ) {
-
 	.logo {width:70%;}
     .rss-que {margin:0 0 20px;}
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px ) {
-
 	.bio {margin:0 0 20px 0;}
-	//.wrapper {width:1200px; margin:15px auto;}
-
 }
