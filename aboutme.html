@@ -241,8 +241,13 @@
     </header>
 	<div class="page">
 
-    <img class="center-block" src="/images/about-woody.jpg">
-
+    <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source srcset="/images/about-woody-lg.jpg" media="(min-width: 992px)">
+        <!-- <source srcset="/images/about-woody-narrow.jpg.jpg" media="(min-width: 480px)"> -->
+        <!--[if IE 9]></video><![endif]-->
+        <img class="center-block" src="/images/about-woody-mobile.jpg" srcset="/images/about-woody-mobile.jpg">
+    </picture>
 
 </div> <!-- page -->
 

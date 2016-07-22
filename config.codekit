@@ -20,13 +20,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/about-woody.jpg": {
+	"\/images\/about-woody-lg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.32036e+06,
-		"inputAbbreviatedPath": "\/images\/about-woody.jpg",
-		"outputAbbreviatedPath": "\/images\/about-woody.jpg",
+		"inputAbbreviatedPath": "\/images\/about-woody-lg.jpg",
+		"outputAbbreviatedPath": "\/images\/about-woody-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/about-woody-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130037,
+		"inputAbbreviatedPath": "\/images\/about-woody-mobile.jpg",
+		"outputAbbreviatedPath": "\/images\/about-woody-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
