@@ -176,7 +176,7 @@ header a, header a:hover {
   line-height: 22px; }
 
 .portfolio-link a:hover {
-  text-decoration: underline; }
+  text-decoration: none; }
 
 .portfolio-touchofclass svg {
   width: 70%; }
