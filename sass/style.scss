@@ -1,6 +1,6 @@
 
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 
 body {background:#333; color:#333; font-family:Helvetica, Arial, "Lucida Grande", sans-serif; }
 a {color: #52A9D4;}
@@ -143,6 +143,8 @@ img { max-width: 100%; }
 .bio p {font-size:16px; line-height:22px;}
 
 a .fa-linkedin-square:hover {color:#007bb6;}
+a .fa-medium:hover {color:#00ab6b;}
+a .fa-instagram:hover {color:#00000;}
 a .fa-twitter:hover, .social-site.twitter a:hover {color:#00aced;}
 a .fa-dribbble:hover {color:#ea4c89;}
 a .fa-github:hover, .social-site.github a:hover,  .github .rss-que a:hover, .github .rss-que a:hover .fa, .github .rss-que a:hover .pubdate {color:#4183c4;}
