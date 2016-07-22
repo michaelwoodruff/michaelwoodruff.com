@@ -89,7 +89,7 @@ header a, header a:hover {color:#333;}
 .portfolio-jbbq a:hover img:first-child {display:none}
 .portfolio-jbbq a:hover img:last-child {display:block}
 
-.portfolio-ramp a img {display:block; padding:15%;}
+.portfolio-ramp a img {display:block; width:70%;}
 .portfolio-ramp:hover a {color:#1B406F;}
 .portfolio-ramp img:last-child {display:none}
 .portfolio-ramp a:hover img:first-child {display:none}
@@ -119,8 +119,12 @@ header a, header a:hover {color:#333;}
 .portfolio-kalio:hover svg {fill:#6cb33f;}
 .portfolio-kalio:hover a {color:#6cb33f;}
 
+.portfolio-acorn a img {display:block; width:70%;}
 .portfolio-acorn:hover svg {fill:#810c0c;}
 .portfolio-acorn:hover a {color:#810c0c;}
+.portfolio-acorn img:last-child {display:none}
+.portfolio-acorn a:hover img:first-child {display:none}
+.portfolio-acorn a:hover img:last-child {display:block}
 
 
 .social-site {background:#52a9d4; color:#fff; padding:7px; text-align:center; margin:15px -15px 10px; font-size:22px; font-family: 'Archivo Narrow', sans-serif;}

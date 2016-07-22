@@ -42,6 +42,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/acorntv-logo-b&w.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21183,
+		"inputAbbreviatedPath": "\/images\/acorntv-logo-b&w.png",
+		"outputAbbreviatedPath": "\/images\/acorntv-logo-b&w.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acorntv-logo-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25323,
+		"inputAbbreviatedPath": "\/images\/acorntv-logo-color.png",
+		"outputAbbreviatedPath": "\/images\/acorntv-logo-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
