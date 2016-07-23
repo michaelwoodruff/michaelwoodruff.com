@@ -215,10 +215,10 @@ header a, header a:hover {
 .portfolio-jbbq img:last-child {
   display: none; }
 
-.portfolio-jbbq a:hover img:first-child {
+.portfolio-jbbq:hover img:first-child {
   display: none; }
 
-.portfolio-jbbq a:hover img:last-child {
+.portfolio-jbbq:hover img:last-child {
   display: block; }
 
 .portfolio-ramp a img {
@@ -231,10 +231,10 @@ header a, header a:hover {
 .portfolio-ramp img:last-child {
   display: none; }
 
-.portfolio-ramp a:hover img:first-child {
+.portfolio-ramp:hover img:first-child {
   display: none; }
 
-.portfolio-ramp a:hover img:last-child {
+.portfolio-ramp:hover img:last-child {
   display: block; }
 
 .portfolio-hale svg {
@@ -301,10 +301,10 @@ header a, header a:hover {
 .portfolio-acorn img:last-child {
   display: none; }
 
-.portfolio-acorn a:hover img:first-child {
+.portfolio-acorn:hover img:first-child {
   display: none; }
 
-.portfolio-acorn a:hover img:last-child {
+.portfolio-acorn:hover img:last-child {
   display: block; }
 
 .social-site {
