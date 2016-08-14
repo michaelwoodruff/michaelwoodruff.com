@@ -66,7 +66,7 @@ function pinboardrssfeedsetup() {
 /* pocket */
 // https://getpocket.com/users/michaelwoodruff/feed/all
 var pocketfeedcontainer = document.getElementById("pocketfeed");
-var pocketfeedurl = "https://getpocket.com/users/michaelwoodruff/feed/all?nocache=" + (new Date()).getTime();
+var pocketfeedurl = "https://getpocket.com/users/michaelwoodruff/feed/?nocache=" + (new Date()).getTime();
 var pocketfeedlimit = 7;
 var pocketrssoutput = "";
 
