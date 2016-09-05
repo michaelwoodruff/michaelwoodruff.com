@@ -874,6 +874,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/kalio\/kalio-category.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 694967,
+		"inputAbbreviatedPath": "\/images\/kalio\/kalio-category.png",
+		"outputAbbreviatedPath": "\/images\/kalio\/kalio-category.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kalio\/kalio-control.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51205e+06,
+		"inputAbbreviatedPath": "\/images\/kalio\/kalio-control.png",
+		"outputAbbreviatedPath": "\/images\/kalio\/kalio-control.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kalio\/kalio-css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 617629,
+		"inputAbbreviatedPath": "\/images\/kalio\/kalio-css.png",
+		"outputAbbreviatedPath": "\/images\/kalio\/kalio-css.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kalio\/kalio-dashboard-mega.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21517e+06,
+		"inputAbbreviatedPath": "\/images\/kalio\/kalio-dashboard-mega.png",
+		"outputAbbreviatedPath": "\/images\/kalio\/kalio-dashboard-mega.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kalio\/kalio-dashboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 972377,
+		"inputAbbreviatedPath": "\/images\/kalio\/kalio-dashboard.png",
+		"outputAbbreviatedPath": "\/images\/kalio\/kalio-dashboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kalio\/kalio-javascript-edit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 741473,
+		"inputAbbreviatedPath": "\/images\/kalio\/kalio-javascript-edit.png",
+		"outputAbbreviatedPath": "\/images\/kalio\/kalio-javascript-edit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kalio\/kalio-javascript-list.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 728594,
+		"inputAbbreviatedPath": "\/images\/kalio\/kalio-javascript-list.png",
+		"outputAbbreviatedPath": "\/images\/kalio\/kalio-javascript-list.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -966,6 +1043,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/javascript\/jquery.bootstrap-autohidingnavbar.min.js",
 		"outputAbbreviatedPath": "\/javascript\/min\/jquery.bootstrap-autohidingnavbar.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/javascript\/jquery.fancybox-media.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
+		"outputAbbreviatedPath": "\/javascript\/min\/jquery.fancybox-media-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/javascript\/jquery.fancybox.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
+		"outputAbbreviatedPath": "\/javascript\/min\/jquery.fancybox.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1118,10 +1217,42 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/vendor\/animate.scss",
 		"outputAbbreviatedPath": "\/sass\/css\/animate.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/vendor\/fancybox.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/vendor\/fancybox.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/fancybox.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/vendor\/font-awesome-animation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/vendor\/font-awesome-animation.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/font-awesome-animation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1163,6 +1294,18 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/javascript\/jquery.bootstrap-autohidingnavbar.min.js",
 			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
+			"position": 3,
 			"type": 0
 			}
 		]

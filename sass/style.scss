@@ -2,16 +2,21 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 
-@import "vendor/animate";
+@import "vendor/fancybox";
+@import "vendor/font-awesome-animation";
 
 body {background:#333; color:#333; font-family:Helvetica, Arial, "Lucida Grande", sans-serif; }
 a {color: #52A9D4;}
 a:hover {text-decoration:none; color:#52A9D4;}
 h1 {font-size:38px; margin:15px 0 25px; text-align: center; font-weight: bold; line-height:1; font-family:'Archivo Narrow', sans-serif;}
-h2 {font-weight:normal;  font-family: 'Archivo Narrow', sans-serif;}
+h2 {font-weight:normal;  font-family: 'Archivo Narrow', sans-serif; text-align: center; }
 h2 span {color:#52a9d4;}
 .logo {fill:#52a9d4; width:90%;}
+
+// utility
 .vertical-center { position:absolute; top:50%; transform:translateY(-50%); }
+.gutter-bottom {margin-bottom:15px;}
+.gutter-top {margin-top:15px;}
 
 /* page */
 .wrapper {margin:0; border:7px solid #52A9D4;}
@@ -62,16 +67,28 @@ header a, header a:hover {color:#333;}
 
 
 // portfolio
-.portfolio-group {margin:25px 0 15px 0;}
-.portfolio-group-item {height:140px; border-top:1px solid #ddd; box-shadow: 0 1px 2px 0 rgba(0,0,0,.14), 0 2px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); position:relative; margin-bottom:15px; background:#fff; text-align:center; margin-left:auto; margin-right:auto;}
+.portfolio-group {margin:10px 0 15px 0;}
+.portfolio-group-item {height:150px; border:1px solid #fff; border-top:1px solid #ddd; box-shadow: 0 1px 2px 0 rgba(0,0,0,.14), 0 2px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12); position:relative; margin-bottom:15px; background:#fff; text-align:center; margin-left:auto; margin-right:auto;}
 .portfolio-group-item.portfolio-group-disabled {background:#fff; color:#ccc;}
 .portfolio-group-item.portfolio-group-disabled .portfolio-name {color:#ccc;}
 .portfolio-name {font-family:'Archivo Narrow', sans-serif; font-size:32px;text-align:center; margin:0; width:100%; font-weight:bold; color:#333;}
 .portfolio-name svg {width:75%;}
 .portfolio-name a {display: block; text-decoration:none; color:#333;}
+
+.portfolio-launch {margin:0; position:absolute; top:-5px; width:100%; opacity:0; color:#999;}
+
 .portfolio-link {margin:0; position:absolute; bottom:-5px; width:100%; opacity:0;}
-.portfolio-link a {color:#52A9D4; display:block; line-height:22px;}
+.portfolio-link a {color:#333; display:block; line-height:24px; text-decoration:none;}
 .portfolio-link a:hover {text-decoration:none;}
+.portfolio-link .list-inline {margin:10px 5px;}
+.portfolio-link .list-inline > li {padding-left: 10px; padding-right: 10px;}
+.portfolio-link .list-inline > li:first-child {padding-left: 0;}
+.portfolio-link .list-inline > li:last-child {padding-right: 0;}
+
+
+.portfolio-group-item:hover .portfolio-link {transition:all 0.3s ease 0s; transform:translateY(-11px); opacity:1;}
+.portfolio-group-item:hover .portfolio-launch {transition:all 0.3s ease 0s; transform:translateY(15px); opacity:1;}
+.portfolio-group-item:hover .portfolio-name {opacity: 0.2;}
 
 .portfolio-touchofclass svg {width:70%;}
 .portfolio-touchofclass:hover svg {fill:#951F2B;}
@@ -79,54 +96,70 @@ header a, header a:hover {color:#333;}
 
 .portfolio-dawn svg {width:50%;}
 .portfolio-dawn:hover svg {fill:#f65c7b;}
-.portfolio-dawn:hover a {color:#f65c7b;}
+.portfolio-dawn .portfolio-link a:hover, .portfolio-dawn .animated  {color:#f65c7b;}
+.portfolio-group-item.portfolio-dawn:hover {border: 1px solid #f65c7b;}
 
 .portfolio-pear svg {width:50%;}
 .portfolio-pear:hover svg {fill:#91B7BE;}
-.portfolio-pear:hover a {color:#91B7BE;}
+.portfolio-pear .portfolio-link a:hover, .portfolio-pear .animated {color:#91B7BE;}
+.portfolio-group-item.portfolio-pear:hover {border: 1px solid #91B7BE;}
 
-.portfolio-jbbq a img {display:block; width:45%;}
-.portfolio-jbbq:hover a {color:#b04b3c;}
-.portfolio-jbbq img:last-child {display:none}
-.portfolio-jbbq:hover img:first-child {display:none}
-.portfolio-jbbq:hover img:last-child {display:block}
-
-.portfolio-ramp a img {display:block; width:70%;}
-.portfolio-ramp:hover a {color:#1B406F;}
-.portfolio-ramp img:last-child {display:none}
-.portfolio-ramp:hover img:first-child {display:none}
-.portfolio-ramp:hover img:last-child {display:block}
+.portfolio-bern:hover svg {fill:#D59F0F;}
+.portfolio-bern .portfolio-link a:hover, .portfolio-bern .animated {color:#D59F0F;}
+.portfolio-group-item.portfolio-bern:hover {border: 1px solid #D59F0F;}
 
 .portfolio-hale svg {width:30%;}
 .portfolio-hale:hover svg {fill:#d34927;}
-.portfolio-hale:hover a {color:#d34927;}
+.portfolio-hale .portfolio-link a:hover, .portfolio-hale .animated {color:#d34927;}
+.portfolio-group-item.portfolio-hale:hover {border: 1px solid #d34927;}
 
-.portfolio-bern:hover svg {fill:#D59F0F;}
-.portfolio-bern:hover a {color:#D59F0F;}
+.portfolio-ramp img {display:block; width:70%;}
+.portfolio-ramp img:last-child {display:none}
+.portfolio-ramp:hover img:first-child {display:none}
+.portfolio-ramp:hover img:last-child {display:block}
+.portfolio-ramp .portfolio-link a:hover, .portfolio-ramp .animated {color:#B2002F;}
+.portfolio-group-item.portfolio-ramp:hover {border: 1px solid #1B406F;}
 
-.portfolio-arms:hover svg {fill:#ff7f00;}
-.portfolio-arms:hover a {color:#ff7f00;}
-
-.portfolio-rtea:hover svg {fill:#566c11;}
-.portfolio-rtea:hover a {color:#566c11;}
+.portfolio-acorn img {display:block; width:70%;}
+.portfolio-acorn:hover svg {fill:#810c0c;}
+.portfolio-acorn img:last-child {display:none}
+.portfolio-acorn:hover img:first-child {display:none}
+.portfolio-acorn:hover img:last-child {display:block}
+.portfolio-acorn .portfolio-link a:hover, .portfolio-acorn .animated {color:#810c0c;}
+.portfolio-group-item.portfolio-acorn:hover {border: 1px solid #810c0c;}
 
 .portfolio-travers svg {width:60%;}
 .portfolio-travers:hover svg {fill:#053979;}
-.portfolio-travers:hover a {color:#053979;}
+.portfolio-travers .portfolio-link a:hover, .portfolio-travers .animated {color:#1f9900;}
+.portfolio-group-item.portfolio-travers:hover {border: 1px solid #053979;}
+
+.portfolio-arms:hover svg {fill:#ff7f00;}
+.portfolio-arms .portfolio-link a:hover, .portfolio-arms .animated {color:#ff7f00;}
+.portfolio-group-item.portfolio-arms:hover {border: 1px solid #ff7f00;}
+
+
+.portfolio-jbbq img {display:block; width:45%;}
+.portfolio-jbbq img:last-child {display:none}
+.portfolio-jbbq:hover img:first-child {display:none}
+.portfolio-jbbq:hover img:last-child {display:block}
+.portfolio-jbbq .portfolio-link a:hover, .portfolio-jbbq .animated {color:#b04b3c;}
+.portfolio-group-item.portfolio-jbbq:hover {border: 1px solid #b04b3c;}
+
+.portfolio-rtea:hover svg {fill:#566c11;}
+.portfolio-rtea .portfolio-link a:hover, .portfolio-rtea .animated {color:#b32317;}
+.portfolio-group-item.portfolio-rtea:hover {border: 1px solid #566c11;}
+
 
 .portfolio-wigs:hover a, .portfolio-wigs {color:#f88379;}
 .portfolio-wigs svg {fill:#aaa}
 .portfolio-wigs svg:hover  {fill:#f88379;}
 
 .portfolio-kalio:hover svg {fill:#6cb33f;}
-.portfolio-kalio:hover a {color:#6cb33f;}
+.portfolio-kalio .portfolio-link a:hover, .portfolio-kalio .animated {color:#6cb33f;}
+.portfolio-group-item.portfolio-kalio:hover {border: 1px solid #6cb33f;}
 
-.portfolio-acorn a img {display:block; width:70%;}
-.portfolio-acorn:hover svg {fill:#810c0c;}
-.portfolio-acorn:hover a {color:#810c0c;}
-.portfolio-acorn img:last-child {display:none}
-.portfolio-acorn:hover img:first-child {display:none}
-.portfolio-acorn:hover img:last-child {display:block}
+
+
 
 
 .social-site {background:#52a9d4; color:#fff; padding:7px; text-align:center; margin:15px -15px 10px; font-size:22px; font-family: 'Archivo Narrow', sans-serif;}
@@ -197,7 +230,7 @@ footer a, footer a:hover {color:#333;}
 @media (min-width: 768px) {
     .portfolio-group-item {height:200px;}
     .portfolio-group-item {margin-bottom:20px;}
-    .portfolio-group-item:hover .portfolio-link {transition:all 0.3s ease 0s; transform:translateY(-20px); opacity:1;}
+    .portfolio-group-item:hover .portfolio-name {opacity: 1;}
 	.logo {width:100%;}
     .social-site {background:none; color:#333;}
     .social-site a {color:#333;}

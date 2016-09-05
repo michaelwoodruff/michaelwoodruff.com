@@ -126,6 +126,39 @@ function instapaperrssfeedsetup() {
 
 $(document).ready(function() {
 
+    $('.portfolio-group-item').on("touchstart", function(e) {
+        "use strict"; //satisfy the code inspectors
+        var link = $(this); //preselect the link
+        if (link.hasClass('hover')) {
+            return true;
+        } else {
+            link.addClass("hover");
+            $('a.taphover').not(this).removeClass("hover");
+            e.preventDefault();
+            return false; //extra, and to make sure the function has consistent return points
+        }
+    });
+
+    // fancy boxy dialogs
+    $(".dialog-default").fancybox({
+        //type: 'iframe',
+        //fitToView: true
+    });
+
+    $(".dialog-image").fancybox();
+
+
+    $(".dialog-pdf").fancybox({
+        wrapCSS: 'fb-pdf',
+        type: 'iframe',
+        openEffect: 'none',
+        closeEffect: 'none',
+        iframe: {
+            preload: false
+        }
+    });
+
+
     var scroll = $(document).scrollTop();
     var headerHeight = $('.page-header').outerHeight();
 
