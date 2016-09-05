@@ -126,6 +126,7 @@ function instapaperrssfeedsetup() {
 
 $(document).ready(function() {
 
+/*
     $('.portfolio-group-item').on("touchstart", function(e) {
         "use strict"; //satisfy the code inspectors
         var link = $(this); //preselect the link
@@ -138,6 +139,7 @@ $(document).ready(function() {
             return false; //extra, and to make sure the function has consistent return points
         }
     });
+*/
 
     // fancy boxy dialogs
     $(".dialog-default").fancybox({

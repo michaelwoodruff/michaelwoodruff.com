@@ -14,7 +14,7 @@ h2 span {color:#52a9d4;}
 .logo {fill:#52a9d4; width:90%;}
 
 // utility
-.vertical-center { position:absolute; top:50%; transform:translateY(-50%); }
+.vertical-center { position:absolute; top:40%; transform:translateY(-50%); }
 .gutter-bottom {margin-bottom:15px;}
 .gutter-top {margin-top:15px;}
 
@@ -77,7 +77,7 @@ header a, header a:hover {color:#333;}
 
 .portfolio-launch {margin:0; position:absolute; top:-5px; width:100%; opacity:0; color:#999;}
 
-.portfolio-link {margin:0; position:absolute; bottom:-5px; width:100%; opacity:0;}
+.portfolio-link {margin:0; position:absolute; bottom:-5px; width:100%; }
 .portfolio-link a {color:#333; display:block; line-height:24px; text-decoration:none;}
 .portfolio-link a:hover {text-decoration:none;}
 .portfolio-link .list-inline {margin:10px 5px;}
@@ -96,28 +96,28 @@ header a, header a:hover {color:#333;}
 
 .portfolio-dawn svg {width:50%;}
 .portfolio-dawn:hover svg {fill:#f65c7b;}
-.portfolio-dawn .portfolio-link a:hover, .portfolio-dawn .animated  {color:#f65c7b;}
+.portfolio-dawn .portfolio-link a:hover, .portfolio-dawn .fa-arrow-right  {color:#f65c7b;}
 .portfolio-group-item.portfolio-dawn:hover {border: 1px solid #f65c7b;}
 
 .portfolio-pear svg {width:50%;}
 .portfolio-pear:hover svg {fill:#91B7BE;}
-.portfolio-pear .portfolio-link a:hover, .portfolio-pear .animated {color:#91B7BE;}
+.portfolio-pear .portfolio-link a:hover, .portfolio-pear .fa-arrow-right {color:#91B7BE;}
 .portfolio-group-item.portfolio-pear:hover {border: 1px solid #91B7BE;}
 
 .portfolio-bern:hover svg {fill:#D59F0F;}
-.portfolio-bern .portfolio-link a:hover, .portfolio-bern .animated {color:#D59F0F;}
+.portfolio-bern .portfolio-link a:hover, .portfolio-bern .fa-arrow-right {color:#D59F0F;}
 .portfolio-group-item.portfolio-bern:hover {border: 1px solid #D59F0F;}
 
 .portfolio-hale svg {width:30%;}
 .portfolio-hale:hover svg {fill:#d34927;}
-.portfolio-hale .portfolio-link a:hover, .portfolio-hale .animated {color:#d34927;}
+.portfolio-hale .portfolio-link a:hover, .portfolio-hale .fa-arrow-right {color:#d34927;}
 .portfolio-group-item.portfolio-hale:hover {border: 1px solid #d34927;}
 
 .portfolio-ramp img {display:block; width:70%;}
 .portfolio-ramp img:last-child {display:none}
 .portfolio-ramp:hover img:first-child {display:none}
 .portfolio-ramp:hover img:last-child {display:block}
-.portfolio-ramp .portfolio-link a:hover, .portfolio-ramp .animated {color:#B2002F;}
+.portfolio-ramp .portfolio-link a:hover, .portfolio-ramp .fa-arrow-right {color:#B2002F;}
 .portfolio-group-item.portfolio-ramp:hover {border: 1px solid #1B406F;}
 
 .portfolio-acorn img {display:block; width:70%;}
@@ -125,16 +125,16 @@ header a, header a:hover {color:#333;}
 .portfolio-acorn img:last-child {display:none}
 .portfolio-acorn:hover img:first-child {display:none}
 .portfolio-acorn:hover img:last-child {display:block}
-.portfolio-acorn .portfolio-link a:hover, .portfolio-acorn .animated {color:#810c0c;}
+.portfolio-acorn .portfolio-link a:hover, .portfolio-acorn .fa-arrow-right {color:#810c0c;}
 .portfolio-group-item.portfolio-acorn:hover {border: 1px solid #810c0c;}
 
 .portfolio-travers svg {width:60%;}
 .portfolio-travers:hover svg {fill:#053979;}
-.portfolio-travers .portfolio-link a:hover, .portfolio-travers .animated {color:#1f9900;}
+.portfolio-travers .portfolio-link a:hover, .portfolio-travers .fa-arrow-right {color:#1f9900;}
 .portfolio-group-item.portfolio-travers:hover {border: 1px solid #053979;}
 
 .portfolio-arms:hover svg {fill:#ff7f00;}
-.portfolio-arms .portfolio-link a:hover, .portfolio-arms .animated {color:#ff7f00;}
+.portfolio-arms .portfolio-link a:hover, .portfolio-arms .fa-arrow-right {color:#ff7f00;}
 .portfolio-group-item.portfolio-arms:hover {border: 1px solid #ff7f00;}
 
 
@@ -142,11 +142,11 @@ header a, header a:hover {color:#333;}
 .portfolio-jbbq img:last-child {display:none}
 .portfolio-jbbq:hover img:first-child {display:none}
 .portfolio-jbbq:hover img:last-child {display:block}
-.portfolio-jbbq .portfolio-link a:hover, .portfolio-jbbq .animated {color:#b04b3c;}
+.portfolio-jbbq .portfolio-link a:hover, .portfolio-jbbq .fa-arrow-right {color:#b04b3c;}
 .portfolio-group-item.portfolio-jbbq:hover {border: 1px solid #b04b3c;}
 
 .portfolio-rtea:hover svg {fill:#566c11;}
-.portfolio-rtea .portfolio-link a:hover, .portfolio-rtea .animated {color:#b32317;}
+.portfolio-rtea .portfolio-link a:hover, .portfolio-rtea .fa-arrow-right {color:#b32317;}
 .portfolio-group-item.portfolio-rtea:hover {border: 1px solid #566c11;}
 
 
@@ -155,7 +155,7 @@ header a, header a:hover {color:#333;}
 .portfolio-wigs svg:hover  {fill:#f88379;}
 
 .portfolio-kalio:hover svg {fill:#6cb33f;}
-.portfolio-kalio .portfolio-link a:hover, .portfolio-kalio .animated {color:#6cb33f;}
+.portfolio-kalio .portfolio-link a:hover, .portfolio-kalio .fa-arrow-right {color:#6cb33f;}
 .portfolio-group-item.portfolio-kalio:hover {border: 1px solid #6cb33f;}
 
 
@@ -228,6 +228,8 @@ footer a, footer a:hover {color:#333;}
 
 /* Small devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
+    .vertical-center {top:50%; }
+    .portfolio-link {opacity:0;}
     .portfolio-group-item {height:200px;}
     .portfolio-group-item {margin-bottom:20px;}
     .portfolio-group-item:hover .portfolio-name {opacity: 1;}

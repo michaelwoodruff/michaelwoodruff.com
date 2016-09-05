@@ -901,7 +901,7 @@ h2 span {
 
 .vertical-center {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%); }
 
 .gutter-bottom {
@@ -1050,8 +1050,7 @@ header a, header a:hover {
   margin: 0;
   position: absolute;
   bottom: -5px;
-  width: 100%;
-  opacity: 0; }
+  width: 100%; }
 
 .portfolio-link a {
   color: #333;
@@ -1103,7 +1102,7 @@ header a, header a:hover {
 .portfolio-dawn:hover svg {
   fill: #f65c7b; }
 
-.portfolio-dawn .portfolio-link a:hover, .portfolio-dawn .animated {
+.portfolio-dawn .portfolio-link a:hover, .portfolio-dawn .fa-arrow-right {
   color: #f65c7b; }
 
 .portfolio-group-item.portfolio-dawn:hover {
@@ -1115,7 +1114,7 @@ header a, header a:hover {
 .portfolio-pear:hover svg {
   fill: #91B7BE; }
 
-.portfolio-pear .portfolio-link a:hover, .portfolio-pear .animated {
+.portfolio-pear .portfolio-link a:hover, .portfolio-pear .fa-arrow-right {
   color: #91B7BE; }
 
 .portfolio-group-item.portfolio-pear:hover {
@@ -1124,7 +1123,7 @@ header a, header a:hover {
 .portfolio-bern:hover svg {
   fill: #D59F0F; }
 
-.portfolio-bern .portfolio-link a:hover, .portfolio-bern .animated {
+.portfolio-bern .portfolio-link a:hover, .portfolio-bern .fa-arrow-right {
   color: #D59F0F; }
 
 .portfolio-group-item.portfolio-bern:hover {
@@ -1136,7 +1135,7 @@ header a, header a:hover {
 .portfolio-hale:hover svg {
   fill: #d34927; }
 
-.portfolio-hale .portfolio-link a:hover, .portfolio-hale .animated {
+.portfolio-hale .portfolio-link a:hover, .portfolio-hale .fa-arrow-right {
   color: #d34927; }
 
 .portfolio-group-item.portfolio-hale:hover {
@@ -1155,7 +1154,7 @@ header a, header a:hover {
 .portfolio-ramp:hover img:last-child {
   display: block; }
 
-.portfolio-ramp .portfolio-link a:hover, .portfolio-ramp .animated {
+.portfolio-ramp .portfolio-link a:hover, .portfolio-ramp .fa-arrow-right {
   color: #B2002F; }
 
 .portfolio-group-item.portfolio-ramp:hover {
@@ -1177,7 +1176,7 @@ header a, header a:hover {
 .portfolio-acorn:hover img:last-child {
   display: block; }
 
-.portfolio-acorn .portfolio-link a:hover, .portfolio-acorn .animated {
+.portfolio-acorn .portfolio-link a:hover, .portfolio-acorn .fa-arrow-right {
   color: #810c0c; }
 
 .portfolio-group-item.portfolio-acorn:hover {
@@ -1189,7 +1188,7 @@ header a, header a:hover {
 .portfolio-travers:hover svg {
   fill: #053979; }
 
-.portfolio-travers .portfolio-link a:hover, .portfolio-travers .animated {
+.portfolio-travers .portfolio-link a:hover, .portfolio-travers .fa-arrow-right {
   color: #1f9900; }
 
 .portfolio-group-item.portfolio-travers:hover {
@@ -1198,7 +1197,7 @@ header a, header a:hover {
 .portfolio-arms:hover svg {
   fill: #ff7f00; }
 
-.portfolio-arms .portfolio-link a:hover, .portfolio-arms .animated {
+.portfolio-arms .portfolio-link a:hover, .portfolio-arms .fa-arrow-right {
   color: #ff7f00; }
 
 .portfolio-group-item.portfolio-arms:hover {
@@ -1217,7 +1216,7 @@ header a, header a:hover {
 .portfolio-jbbq:hover img:last-child {
   display: block; }
 
-.portfolio-jbbq .portfolio-link a:hover, .portfolio-jbbq .animated {
+.portfolio-jbbq .portfolio-link a:hover, .portfolio-jbbq .fa-arrow-right {
   color: #b04b3c; }
 
 .portfolio-group-item.portfolio-jbbq:hover {
@@ -1226,7 +1225,7 @@ header a, header a:hover {
 .portfolio-rtea:hover svg {
   fill: #566c11; }
 
-.portfolio-rtea .portfolio-link a:hover, .portfolio-rtea .animated {
+.portfolio-rtea .portfolio-link a:hover, .portfolio-rtea .fa-arrow-right {
   color: #b32317; }
 
 .portfolio-group-item.portfolio-rtea:hover {
@@ -1244,7 +1243,7 @@ header a, header a:hover {
 .portfolio-kalio:hover svg {
   fill: #6cb33f; }
 
-.portfolio-kalio .portfolio-link a:hover, .portfolio-kalio .animated {
+.portfolio-kalio .portfolio-link a:hover, .portfolio-kalio .fa-arrow-right {
   color: #6cb33f; }
 
 .portfolio-group-item.portfolio-kalio:hover {
@@ -1432,6 +1431,12 @@ footer a, footer a:hover {
     width: 33.333%; } }
 /* Small devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
+  .vertical-center {
+    top: 50%; }
+
+  .portfolio-link {
+    opacity: 0; }
+
   .portfolio-group-item {
     height: 200px; }
 
