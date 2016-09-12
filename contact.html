@@ -18,7 +18,7 @@
 <body>
 
 
-    <header class="page-header">
+    <header class="page-header animated fadeInDown">
 		<div class="container">
 			<div class="site-menu">
 				<div class="row">
@@ -46,35 +46,40 @@
 	<div class="page">
 <div class="container">
 
-    <h1><i class="fa fa-comments-o"></i> Contact</h1>
+    <div class="page-top animated fadeInDown">
+        <h1><i class="fa fa-comments-o"></i> Contact</h1>
+    </div>
 
-    <div class="row">
-        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+    <div class="page-content animated">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-            <form id="woodycontact" method="POST" class="form-validate">
-                <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" class="form-control required" data-msg="Please enter <b>your name</b>">
-                </div>
-                <div class="form-group">
-                    <input type="email" name="_replyto" placeholder="Your Email" class="form-control required email" data-msg="Please enter a valid <b>email</b>">
-                </div>
-                <div class="form-group">
-                    <textarea name="message" placeholder="Your Message"class="form-control required" rows="6" data-msg="Please enter <b>your message</b>"></textarea>
-                </div>
-                <input type="hidden" name="_subject" value="Website contact">
-                <input type="hidden" name="_next" value="http://michaelwoodruff.com/thanks.html">
-                <input type="text" name="_gotcha" style="display:none">
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <button class="btn btn-block btn-woody btn-default btn-lg gutter-bottom" type="submit"><i class="fa fa-envelope-o"></i> Send Message</button>
+                <form id="woodycontact" method="POST" class="form-validate">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" class="form-control required" data-msg="Please enter <b>your name</b>">
                     </div>
-                </div>
-            </form>
+                    <div class="form-group">
+                        <input type="email" name="_replyto" placeholder="Your Email" class="form-control required email" data-msg="Please enter a valid <b>email</b>">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message"class="form-control required" rows="6" data-msg="Please enter <b>your message</b>"></textarea>
+                    </div>
+                    <input type="hidden" name="_subject" value="Website contact">
+                    <input type="hidden" name="_next" value="http://michaelwoodruff.com/thanks.html">
+                    <input type="text" name="_gotcha" style="display:none">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <button class="btn btn-block btn-woody btn-default btn-lg gutter-bottom" type="submit"><i class="fa fa-envelope-o"></i> Send Message</button>
+                        </div>
+                    </div>
+                </form>
 
-        </div> <!-- col -->
-    </div> <!-- row -->
+            </div> <!-- col -->
+        </div> <!-- row -->
 
-    <p class="text-center">Contact me on  <a href="https://www.linkedin.com/in/michaelwoodruff"><i class="fa fa-linkedin-square"></i>  LinkedIn</a> as well.</p>
+        <p class="text-center">Contact me on  <a href="https://www.linkedin.com/in/michaelwoodruff"><i class="fa fa-linkedin-square"></i>  LinkedIn</a> as well.</p>
+
+    </div> <!-- page-content -->
 
     <script>
         var woodycontact =  document.getElementById('woodycontact');

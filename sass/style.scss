@@ -58,7 +58,16 @@ header a, header a:hover {color:#333;}
   top: 0;
   z-index: 9999;
 }
-
+.page-content {
+    animation-duration: 500ms;
+    animation-delay: 300ms;
+    animation-iteration-count: 1;
+}
+.page-header {
+    animation-duration: 300ms;
+    animation-delay: 400ms;
+    animation-iteration-count: 1;
+}
 
 // form
 .error-msg {color:#a94442; margin-top:5px;}
@@ -67,6 +76,13 @@ header a, header a:hover {color:#333;}
 // buttons
 .btn-woody {color:#52A9D4; border-color:#52A9D4;}
 .btn-woody:hover, .btn-woody:focus, .btn-woody:active {background:#52A9D4; color:#fff; border-color:#52A9D4;}
+
+.page-top {
+    animation-duration: 300ms;
+	animation-delay: 400ms;
+	animation-iteration-count: 1;
+}
+
 
 
 // portfolio
@@ -83,18 +99,11 @@ header a, header a:hover {color:#333;}
 	margin-left:auto;
 	margin-right:auto;
 
-	//opacity: 0;
-	//visibility: hidden;
-//	-webkit-animation-duration: 3s;
-	animation-duration: 200ms;
 
-//	-webkit-animation-delay: 3s;
-	animation-delay: 300ms;
-
-//	-webkit-animation-iteration-count: 1;
+	animation-duration: 300ms;
+	animation-delay: 400ms;
 	animation-iteration-count: 1;
-
-	 opacity: 0;
+	opacity: 0;
 
 }
 .portfolio-group-item.fadeInUp {

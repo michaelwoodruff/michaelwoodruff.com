@@ -127,6 +127,10 @@ function instapaperrssfeedsetup() {
 
 $(document).ready(function() {
 
+
+    $('.page-content').addClass("fadeInUp");
+
+
     $('.portfolio-group-item').each(function(i) {
         var row = $(this);
         setTimeout(function() {

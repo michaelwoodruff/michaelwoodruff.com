@@ -2539,6 +2539,16 @@ header a, header a:hover {
   top: 0;
   z-index: 9999; }
 
+.page-content {
+  animation-duration: 500ms;
+  animation-delay: 300ms;
+  animation-iteration-count: 1; }
+
+.page-header {
+  animation-duration: 300ms;
+  animation-delay: 400ms;
+  animation-iteration-count: 1; }
+
 .error-msg {
   color: #a94442;
   margin-top: 5px; }
@@ -2557,6 +2567,11 @@ header a, header a:hover {
   color: #fff;
   border-color: #52A9D4; }
 
+.page-top {
+  animation-duration: 300ms;
+  animation-delay: 400ms;
+  animation-iteration-count: 1; }
+
 .portfolio-group {
   margin: 10px 0 15px 0; }
 
@@ -2571,8 +2586,8 @@ header a, header a:hover {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  animation-duration: 200ms;
-  animation-delay: 300ms;
+  animation-duration: 300ms;
+  animation-delay: 400ms;
   animation-iteration-count: 1;
   opacity: 0; }
 
