@@ -127,6 +127,16 @@ function instapaperrssfeedsetup() {
 
 $(document).ready(function() {
 
+    $('.portfolio-group-item').each(function(i) {
+        // $(this).addClass("foo");
+
+        var row = $(this);
+        setTimeout(function() {
+            row.toggleClass('fadeInUp');
+        }, 100 * i);
+
+    });
+
     viewportWidth = $(document).width();
 
     if (viewportWidth >= 768) {
