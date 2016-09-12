@@ -128,13 +128,10 @@ function instapaperrssfeedsetup() {
 $(document).ready(function() {
 
     $('.portfolio-group-item').each(function(i) {
-        // $(this).addClass("foo");
-
         var row = $(this);
         setTimeout(function() {
             row.toggleClass('fadeInUp');
         }, 100 * i);
-
     });
 
     viewportWidth = $(document).width();
@@ -154,8 +151,6 @@ $(document).ready(function() {
         });
     }
 
-
-
     // fancy boxy dialogs
     $(".dialog-default").fancybox({
         //type: 'iframe',
@@ -163,7 +158,6 @@ $(document).ready(function() {
     });
 
     $(".dialog-image").fancybox();
-
 
     $(".dialog-pdf").fancybox({
         wrapCSS: 'fb-pdf',
@@ -174,7 +168,6 @@ $(document).ready(function() {
             preload: false
         }
     });
-
 
     var scroll = $(document).scrollTop();
     var headerHeight = $('.page-header').outerHeight();
@@ -196,10 +189,10 @@ $(document).ready(function() {
 
     $.validator.setDefaults({
         highlight: function(element) {
-            $(element).closest('.form-group').addClass('has-error');
+            $(element).closest('.form-group').addClass('has-error animated shake');
         },
         unhighlight: function(element) {
-            $(element).closest('.form-group').removeClass('has-error');
+            $(element).closest('.form-group').removeClass('has-error animated shake');
         },
         errorElement: 'div',
         errorClass: 'error-msg',
