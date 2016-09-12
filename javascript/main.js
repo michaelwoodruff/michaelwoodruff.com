@@ -128,7 +128,7 @@ function instapaperrssfeedsetup() {
 $(document).ready(function() {
 
 
-    $('.page-content').addClass("fadeInUp");
+    $('.page-content').addClass("fadeInUp").css("opacity",1);
 
 
     $('.portfolio-group-item').each(function(i) {
