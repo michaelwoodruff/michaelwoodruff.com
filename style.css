@@ -2573,6 +2573,12 @@ header a, header a:hover {
   animation-delay: 400ms;
   animation-iteration-count: 1; }
 
+.sandbox-site {
+  display: none; }
+
+.sandbox-site .portfolio-group-item {
+  opacity: 0; }
+
 .portfolio-group {
   margin: 10px 0 15px 0; }
 

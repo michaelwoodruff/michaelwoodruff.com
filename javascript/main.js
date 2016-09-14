@@ -95,37 +95,12 @@ function instapaperrssfeedsetup() {
 
 
 
-/* instapaper */
-/*
-var instapaperfeedcontainer = document.getElementById("instapaperfeed");
-var instapaperfeedurl = "https://www.instapaper.com/rss/288665/rdPIqInL3mfgAr91yeUJ600TuSU?nocache=" + (new Date()).getTime();
-var instapaperfeedlimit = 10;
-var instapaperrssoutput = "";
-function displayinstapaperfeed(result) {
-	if (!result.error) {
-	 	var theinstapaperfeeds = result.feed.entries;
-		instapaperrssoutput += "<ul>";
-		for (var i = 0; i < theinstapaperfeeds.length; i++) {
-			pubdate = new Date(theinstapaperfeeds[i].publishedDate),
-			pubdate = moment(pubdate).format('dddd, MMMM Do YYYY, h:mm A'),
-			instapaperrssoutput += "<li><a href='" + theinstapaperfeeds[i].link + "'><i class=\"fa fa-file-text-o fa-lg\"></i><div class=\"post\">" + theinstapaperfeeds[i].title + "<div class=\"pubdate\">" + pubdate + "</div></div></a></li>";
-		}
-		instapaperrssoutput += "</ul>";
-		instapaperfeedcontainer.innerHTML = instapaperrssoutput;
-	} else {
-		console.log("Error fetching instapaper feed!");
-	}
-}
-function instapaperrssfeedsetup() {
-	var instapaperfeedpointer = new google.feeds.Feed(instapaperfeedurl);
-	instapaperfeedpointer.setNumEntries(instapaperfeedlimit);
-	instapaperfeedpointer.load(displayinstapaperfeed);
-}
-*/
-
-
-
 $(document).ready(function() {
+
+    $(document).on('click', '.js-easter-egg', function(e) {
+        $(".sandbox-site").slideToggle("fast");
+        $(".sandbox-site .portfolio-group-item").addClass("fadeInUp").css("opacity",1);
+    });
 
 
     $('.page-content').addClass("fadeInUp").css("opacity",1);
@@ -142,8 +117,8 @@ $(document).ready(function() {
 
     if (viewportWidth >= 768) {
         $('.portfolio-group-item').on("touchstart", function(e) {
-            "use strict"; //satisfy the code inspectors
-            var link = $(this); //preselect the link
+            "use strict";
+            var link = $(this);
             if (link.hasClass('hover')) {
                 return true;
             } else {

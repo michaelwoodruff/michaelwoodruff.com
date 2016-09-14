@@ -89,6 +89,8 @@ header a, header a:hover {color:#333;}
 
 
 // portfolio
+.sandbox-site {display:none;}
+.sandbox-site .portfolio-group-item {opacity:0;}
 .portfolio-group {margin:10px 0 15px 0;}
 .portfolio-group-item {
 	height:150px;
