@@ -102,6 +102,11 @@ $(document).ready(function() {
         $(".sandbox-site .portfolio-group-item").addClass("fadeInUp").css("opacity",1);
     });
 
+    $(document).on('touchstart', '.js-easter-egg', function(e) {
+        $(".sandbox-site").slideToggle("fast");
+        $(".sandbox-site .portfolio-group-item").addClass("fadeInUp").css("opacity",1);
+    });
+
 
     $('.page-content').addClass("fadeInUp").css("opacity",1);
 
