@@ -93,7 +93,8 @@ function instapaperrssfeedsetup() {
 }
 
 
-
+var foo = 10 + '20' + 10 + '30';
+console.log("foo: " + foo);
 
 $(document).ready(function() {
 
