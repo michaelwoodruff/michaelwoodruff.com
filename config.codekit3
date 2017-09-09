@@ -17,7 +17,7 @@
 		},
 	"\/aboutme.html": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/aboutme.html",
 		"oF": 0
 		},
@@ -94,7 +94,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/animate.css\/source\/_base.css",
 		"oF": 0,
 		"oS": 3
@@ -967,13 +967,13 @@
 		},
 	"\/contact.html": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
 	"\/images\/about-woody-lg.jpg": {
 		"ft": 16384,
-		"iS": 1320360,
+		"iS": 837121,
 		"oA": 0,
 		"oAP": "\/images\/about-woody-lg.jpg",
 		"oF": 0,
@@ -983,7 +983,7 @@
 		},
 	"\/images\/about-woody-mobile.jpg": {
 		"ft": 16384,
-		"iS": 130037,
+		"iS": 293340,
 		"oA": 0,
 		"oAP": "\/images\/about-woody-mobile.jpg",
 		"oF": 0,
@@ -1080,7 +1080,7 @@
 		},
 	"\/images\/kalio\/kalio-control.png": {
 		"ft": 32768,
-		"iS": 1512050,
+		"iS": 1512046,
 		"oA": 0,
 		"oAP": "\/images\/kalio\/kalio-control.png",
 		"oF": 0,
@@ -1102,7 +1102,7 @@
 		},
 	"\/images\/kalio\/kalio-dashboard-mega.png": {
 		"ft": 32768,
-		"iS": 1215170,
+		"iS": 1215167,
 		"oA": 0,
 		"oAP": "\/images\/kalio\/kalio-dashboard-mega.png",
 		"oF": 0,
@@ -1229,7 +1229,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -1237,7 +1237,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/javascript\/min\/jquery.bootstrap-autohidingnavbar.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1247,7 +1247,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/javascript\/min\/jquery.fancybox-media-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1257,7 +1257,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/javascript\/min\/jquery.fancybox.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1267,7 +1267,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/javascript\/min\/jquery.validate.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1278,16 +1278,16 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/main.min.js",
-		"oF": 2,
-		"sC": 0,
+		"oAP": "\/javascript\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/main.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/min\/main.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1302,14 +1302,14 @@
 	"\/pages\/aboutme.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/aboutme.html",
-		"oF": 2
+		"oAP": "\/pages\/aboutme.html",
+		"oF": 0
 		},
 	"\/pages\/contact.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 2
+		"oAP": "\/pages\/contact.html",
+		"oF": 0
 		},
 	"\/pages\/footer.html": {
 		"ft": 8192,
@@ -1326,20 +1326,20 @@
 	"\/pages\/index.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 2
+		"oAP": "\/pages\/index.html",
+		"oF": 0
 		},
 	"\/pages\/portfolio.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/portfolio.html",
-		"oF": 2
+		"oAP": "\/pages\/portfolio.html",
+		"oF": 0
 		},
 	"\/pages\/thanks.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/thanks.html",
-		"oF": 2
+		"oAP": "\/pages\/thanks.html",
+		"oF": 0
 		},
 	"\/pdfs\/bern.ux.pdf": {
 		"ft": 8192,
@@ -1391,7 +1391,7 @@
 		},
 	"\/portfolio.html": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/portfolio.html",
 		"oF": 0
 		},
@@ -1445,8 +1445,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style.css",
-		"oF": 3,
+		"oAP": "\/css\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1500,14 +1500,14 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
 	"\/thanks.html": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/thanks.html",
 		"oF": 0
 		}
@@ -1515,32 +1515,6 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/javascript\/main.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.validate.min.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.bootstrap-autohidingnavbar.min.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
-			"position": 3,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 522377798,
