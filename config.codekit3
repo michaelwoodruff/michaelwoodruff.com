@@ -1237,7 +1237,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/javascript\/min\/jquery.bootstrap-autohidingnavbar.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1247,7 +1247,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/javascript\/min\/jquery.fancybox-media-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1257,7 +1257,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/javascript\/min\/jquery.fancybox.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1267,7 +1267,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/javascript\/min\/jquery.validate.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1515,6 +1515,32 @@
 "hooks": [
 	],
 "manualImportLinks": {
+	"\/javascript\/main.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.bootstrap-autohidingnavbar.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.validate.min.js",
+			"position": 3,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 522377798,
