@@ -7,6 +7,7 @@
 google.load("feeds", "1");
 
 /* github */
+/*
 var githubfeedcontainer = document.getElementById("githubfeed");
 var githubfeedurl = "https://github.com/michaelwoodruff.atom?nocache=" + (new Date()).getTime();
 var githubfeedlimit = 7;
@@ -33,7 +34,7 @@ function githubrssfeedsetup() {
     githubfeedpointer.setNumEntries(githubfeedlimit);
     githubfeedpointer.load(displaygithubfeed);
 }
-
+*/
 
 /* pinboard */
 var pinboardfeedcontainer = document.getElementById("pinboardfeed");
@@ -65,6 +66,7 @@ function pinboardrssfeedsetup() {
 
 /* pocket */
 // https://getpocket.com/users/michaelwoodruff/feed/all
+/*
 var pocketfeedcontainer = document.getElementById("pocketfeed");
 var pocketfeedurl = "https://getpocket.com/users/michaelwoodruff/feed/?nocache=" + (new Date()).getTime();
 var pocketfeedlimit = 7;
@@ -91,10 +93,10 @@ function instapaperrssfeedsetup() {
     pocketfeedpointer.setNumEntries(pocketfeedlimit);
     pocketfeedpointer.load(displaypocketfeed);
 }
+*/
 
-
-var foo = 10 + '20' + 10 + '30';
-console.log("foo: " + foo);
+//var foo = 10 + '20' + 10 + '30';
+//console.log("foo: " + foo);
 
 $(document).ready(function() {
 
@@ -197,11 +199,8 @@ $(document).ready(function() {
 
 
     var currentURL = location.pathname;
-    console.log("currentURL: " + currentURL);
+    //console.log("currentURL: " + currentURL);
     $('.site-menu a[href="' + currentURL + '"]').addClass('active');
-
-
-
 
 
 });
