@@ -1302,14 +1302,14 @@
 	"\/pages\/aboutme.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/pages\/aboutme.html",
-		"oF": 0
+		"oAP": "\/aboutme.html",
+		"oF": 2
 		},
 	"\/pages\/contact.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/pages\/contact.html",
-		"oF": 0
+		"oAP": "\/contact.html",
+		"oF": 2
 		},
 	"\/pages\/footer.html": {
 		"ft": 8192,
@@ -1445,8 +1445,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
-		"oF": 0,
+		"oAP": "\/style.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1476,7 +1476,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/sass\/css\/fancybox.css",
 		"oF": 0,
 		"oS": 0,

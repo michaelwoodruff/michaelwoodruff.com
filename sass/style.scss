@@ -1,9 +1,8 @@
-
 @import url("http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700");
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 
-@import "vendor/fancybox";
+//@import "vendor/fancybox";
 @import "vendor/animate";
 //@import "vendor/font-awesome-animation";
 
@@ -228,7 +227,7 @@ img { max-width: 100%; }
 
 a .fa-linkedin-square:hover {color:#007bb6;}
 a .fa-medium:hover {color:#00ab6b;}
-a .fa-instagram:hover {color:#00000;}
+a .fa-instagram:hover {color:#000000;}
 a .fa-twitter:hover, .social-site.twitter a:hover {color:#00aced;}
 a .fa-dribbble:hover {color:#ea4c89;}
 a .fa-github:hover, .social-site.github a:hover,  .github .rss-que a:hover, .github .rss-que a:hover .fa, .github .rss-que a:hover .pubdate {color:#4183c4;}
