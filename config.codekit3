@@ -1278,8 +1278,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/javascript\/min\/main-min.js",
-		"oF": 0,
+		"oAP": "\/main.min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -1326,20 +1326,20 @@
 	"\/pages\/index.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/pages\/index.html",
-		"oF": 0
+		"oAP": "\/index.html",
+		"oF": 2
 		},
 	"\/pages\/portfolio.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/pages\/portfolio.html",
-		"oF": 0
+		"oAP": "\/portfolio.html",
+		"oF": 2
 		},
 	"\/pages\/thanks.kit": {
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/pages\/thanks.html",
-		"oF": 0
+		"oAP": "\/thanks.html",
+		"oF": 2
 		},
 	"\/pdfs\/bern.ux.pdf": {
 		"ft": 8192,
