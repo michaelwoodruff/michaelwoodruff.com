@@ -2626,13 +2626,12 @@ h2 span {
   border: 7px solid #52A9D4; }
 
 .page {
-  padding: 20px 0 0;
   background: #fff;
   min-height: 300px;
   border: 7px solid #52A9D4; }
 
-.page .container, .page .container-fluid {
-  padding: 60px 15px 20px; }
+.page {
+  padding: 80px 0 0; }
 
 .gutter-bottom {
   margin-bottom: 15px; }
@@ -2643,6 +2642,63 @@ h2 span {
 .form-control {
   font-size: 16px; }
 
+.shots-item {
+  margin: 10px 0px 20px; }
+
+.shots-item img {
+  border: 1px solid #E1E8ED; }
+
+.author {
+  font-size: 16px;
+  color: #999;
+  margin: 10px 0 0;
+  text-align: center; }
+
+.pin-item {
+  font-size: 20px;
+  margin: 20px 0 10px; }
+
+a.pin-tag {
+  color: #999;
+  margin-top: 5px;
+  font-size: 14px;
+  background: #f1f1f1;
+  padding: 2px 5px;
+  radius: 2px;
+  display: inline-block; }
+
+a.pin-tag:hover {
+  background: #ccc;
+  color: #fff; }
+
+.pinboard-links {
+  padding: 15px 0 35px;
+  margin-top: 20px; }
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.instagram-group {
+  background: #efefef; }
+
+/*
+.pin-item {
+       display: inline-block;
+       font: normal normal normal 14px/1 FontAwesome;
+       font-size: inherit;
+       text-rendering: auto;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+       position: absolute;
+       right: 0;
+       color: red;
+   }
+   .pin-item:before {
+       content: "\f2c3";
+   }
+*/
 /* header */
 header {
   text-align: center;
@@ -2994,7 +3050,7 @@ header a, header a:hover {
   padding: 7px;
   text-align: center;
   margin: 15px -15px 10px;
-  font-size: 22px;
+  font-size: 26px;
   font-family: 'Archivo Narrow', sans-serif; }
 
 .social-site .genericon {
@@ -3037,10 +3093,14 @@ img {
   text-align: center; }
 
 .social-icons {
-  margin: 20px 0 30px; }
+  margin: 20px 0; }
 
 .social-icons .genericon {
   margin: 5px 0; }
+
+.bio {
+  background: #eee;
+  padding: 30px 0; }
 
 .bio p {
   font-size: 16px;

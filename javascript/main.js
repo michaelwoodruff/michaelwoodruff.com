@@ -1,6 +1,52 @@
 
 $(document).ready(function() {
 
+
+    $.jribbble.setToken('68b75fe7f4f1f51ad81a862605bb7546e44403b5bba3ade6678547d34feb4769');
+
+    // liking
+    $.jribbble.users('michaelwoodruff').likes({per_page: 2}).then(function(likes) {
+      var html = [];
+      likes.forEach(function(like) {
+        html.push('<div class="shots-item">');
+        html.push('<a href="' + like.shot.html_url + '" target="_blank">');
+        html.push('<img class="center-block" src="' + like.shot.images.hidpi + '">');
+        html.push('</a><div class="author truncate">By <a href="' + like.shot.user.html_url + '">' + like.shot.user.name  + '</a> from ' + like.shot.user.location + '</div></div>');
+      });
+      //like.shot.user.avatar_url
+      //<img src="' + like.shot.user.avatar_url + '">
+      //  on '+ like.shot.created_at +
+      $('.likes').html(html.join(''));
+    });
+
+    // my shots
+    $.jribbble.users('michaelwoodruff').shots({per_page: 1}).then(function(shots) {
+      var html = [];
+      shots.forEach(function(shot) {
+        html.push('<div class="shots-item">');
+        html.push('<a href="' + shot.html_url + '" target="_blank">');
+        html.push('<img class="center-block" src="' + shot.images.hidpi + '">');
+        html.push('</a><div class="author truncate">' + shot.title + '</div></div>');
+      });
+
+      $('.shots').html(html.join(''));
+    });
+
+//<span class="label label-default">Default</span>
+/*
+    $.jribbble.users('michaelwoodruff').buckets({'per_page': 36}).then(function(res) {
+      var html = [];
+      res.forEach(function(bucket) {
+        var bucketUrl = 'https://dribbble.com/michaelwoodruff' + '/buckets/' + bucket.id;
+        html.push('<a href="' + bucketUrl + '" target="_blank">');
+      	html.push('' + bucket.name + '</a> (' + bucket.shots_count + '), ');
+        html.push('');
+      });
+      $('.buckets').html(html.join(''));
+    });
+*/
+
+
     var viewportWidth = $(document).width();
 
     $(document).on('click', '.js-easter-egg', function() {

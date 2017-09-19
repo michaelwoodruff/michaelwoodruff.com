@@ -1273,6 +1273,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/javascript\/jribbble.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/javascript\/min\/jribbble.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/javascript\/main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1317,6 +1327,12 @@
 		"oAP": "\/pages\/footer.html",
 		"oF": 0
 		},
+	"\/pages\/footer.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/pages\/footer.html",
+		"oF": 0
+		},
 	"\/pages\/header.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -1334,6 +1350,12 @@
 		"oA": 0,
 		"oAP": "\/portfolio.html",
 		"oF": 2
+		},
+	"\/pages\/social.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/pages\/social.html",
+		"oF": 0
 		},
 	"\/pages\/thanks.kit": {
 		"ft": 2048,
@@ -1518,26 +1540,32 @@
 	"\/javascript\/main.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.bootstrap-autohidingnavbar.min.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/jribbble.min.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.bootstrap-autohidingnavbar.min.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.validate.min.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
 			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.validate.min.js",
+			"position": 4,
 			"type": 0
 			}
 		]
