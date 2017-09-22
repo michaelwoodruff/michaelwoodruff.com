@@ -5,13 +5,13 @@ $(document).ready(function() {
     $.jribbble.setToken('68b75fe7f4f1f51ad81a862605bb7546e44403b5bba3ade6678547d34feb4769');
 
     // liking
-    $.jribbble.users('michaelwoodruff').likes({per_page: 2}).then(function(likes) {
+    $.jribbble.users('michaelwoodruff').likes({per_page: 4}).then(function(likes) {
       var html = [];
       likes.forEach(function(like) {
-        html.push('<div class="shots-item">');
+        html.push('<div class="col-sm-6"><div class="shots-item">');
         html.push('<a href="' + like.shot.html_url + '" target="_blank">');
         html.push('<img class="center-block" src="' + like.shot.images.hidpi + '">');
-        html.push('</a><div class="author truncate">By <a href="' + like.shot.user.html_url + '">' + like.shot.user.name  + '</a> from ' + like.shot.user.location + '</div></div>');
+        html.push('</a><div class="title truncate">' + like.shot.title + '</div><div class="author truncate">By <a href="' + like.shot.user.html_url + '">' + like.shot.user.name  + '</a> from ' + like.shot.user.location + '</div></div></div>');
       });
       //like.shot.user.avatar_url
       //<img src="' + like.shot.user.avatar_url + '">
@@ -26,7 +26,7 @@ $(document).ready(function() {
         html.push('<div class="shots-item">');
         html.push('<a href="' + shot.html_url + '" target="_blank">');
         html.push('<img class="center-block" src="' + shot.images.hidpi + '">');
-        html.push('</a><div class="author truncate">' + shot.title + '</div></div>');
+        html.push('</a><div class="title truncate text-center">' + shot.title + '</div></div>');
       });
 
       $('.shots').html(html.join(''));
