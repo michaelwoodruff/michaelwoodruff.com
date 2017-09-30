@@ -2,10 +2,31 @@
 $(document).ready(function() {
 
 
+        var scroll = $(document).scrollTop();
+        var headerHeight = $('.page-header').outerHeight();
+
+        $(window).scroll(function() {
+            var scrolled = $(document).scrollTop();
+            if (scrolled > headerHeight) {
+                $('.page-header').addClass('off-canvas');
+            } else {
+                $('.page-header').removeClass('off-canvas');
+            }
+            if (scrolled > scroll) {
+                $('.page-header').removeClass('fixed');
+            } else {
+                $('.page-header').addClass('fixed');
+            }
+            scroll = $(document).scrollTop();
+        });
+
+
+
+    // feeds
     $.jribbble.setToken('68b75fe7f4f1f51ad81a862605bb7546e44403b5bba3ade6678547d34feb4769');
 
     // liking
-    $.jribbble.users('michaelwoodruff').likes({per_page: 4}).then(function(likes) {
+    $.jribbble.users('michaelwoodruff').likes({per_page: 6}).then(function(likes) {
       var html = [];
       likes.forEach(function(like) {
         html.push('<div class="col-sm-6"><div class="shots-item">');
@@ -32,21 +53,22 @@ $(document).ready(function() {
       $('.shots').html(html.join(''));
     });
 
-//<span class="label label-default">Default</span>
-/*
-    $.jribbble.users('michaelwoodruff').buckets({'per_page': 36}).then(function(res) {
-      var html = [];
-      res.forEach(function(bucket) {
-        var bucketUrl = 'https://dribbble.com/michaelwoodruff' + '/buckets/' + bucket.id;
-        html.push('<a href="' + bucketUrl + '" target="_blank">');
-      	html.push('' + bucket.name + '</a> (' + bucket.shots_count + '), ');
-        html.push('');
-      });
-      $('.buckets').html(html.join(''));
-    });
-*/
+    // buckets
+    /*
+        $.jribbble.users('michaelwoodruff').buckets({'per_page': 36}).then(function(res) {
+          var html = [];
+          res.forEach(function(bucket) {
+            var bucketUrl = 'https://dribbble.com/michaelwoodruff' + '/buckets/' + bucket.id;
+            html.push('<a href="' + bucketUrl + '" target="_blank">');
+          	html.push('' + bucket.name + '</a> (' + bucket.shots_count + '), ');
+            html.push('');
+          });
+          $('.buckets').html(html.join(''));
+        });
+    */
 
 
+    // portfolio
     var viewportWidth = $(document).width();
 
     $(document).on('click', '.js-easter-egg', function() {
@@ -101,23 +123,6 @@ $(document).ready(function() {
         }
     });
 
-    var scroll = $(document).scrollTop();
-    var headerHeight = $('.page-header').outerHeight();
-
-    $(window).scroll(function() {
-        var scrolled = $(document).scrollTop();
-        if (scrolled > headerHeight) {
-            $('.page-header').addClass('off-canvas');
-        } else {
-            $('.page-header').removeClass('off-canvas');
-        }
-        if (scrolled > scroll) {
-            $('.page-header').removeClass('fixed');
-        } else {
-            $('.page-header').addClass('fixed');
-        }
-        scroll = $(document).scrollTop();
-    });
 
     $.validator.setDefaults({
         highlight: function(element) {
@@ -142,7 +147,7 @@ $(document).ready(function() {
         $(this).validate();
     });
 
-
+    // active navigation element
     var currentURL = location.pathname;
     //console.log("currentURL: " + currentURL);
     $('.site-menu a[href="' + currentURL + '"]').addClass('active');

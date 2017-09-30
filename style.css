@@ -2578,8 +2578,8 @@
   animation-name: slideOutUp; }
 
 body {
-  background: #333;
-  color: #333;
+  background: #333333;
+  color: #333333;
   font-family: Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 a {
@@ -2590,6 +2590,7 @@ a:hover {
   color: #52A9D4; }
 
 h1 {
+  color: #333333;
   font-size: 38px;
   margin: 15px 0 25px;
   text-align: center;
@@ -2603,10 +2604,10 @@ h2 {
   text-align: center; }
 
 h2 span {
-  color: #52a9d4; }
+  color: #52A9D4; }
 
 .logo {
-  fill: #52a9d4;
+  fill: #52A9D4;
   width: 90%; }
 
 .vertical-center {
@@ -2621,17 +2622,12 @@ h2 span {
   margin-top: 15px; }
 
 /* page */
-.wrapper {
-  margin: 0;
-  border: 7px solid #52A9D4; }
-
 .page {
   background: #fff;
-  min-height: 300px;
-  border: 7px solid #52A9D4; }
+  min-height: 300px; }
 
 .page {
-  padding: 80px 0 0; }
+  padding: 80px 0 20px; }
 
 .gutter-bottom {
   margin-bottom: 15px; }
@@ -2688,7 +2684,7 @@ a.pin-tag:hover {
   text-overflow: ellipsis; }
 
 .instagram-group {
-  background: #efefef; }
+  background: #ededed; }
 
 /*
 .pin-item {
@@ -2711,27 +2707,29 @@ header {
   text-align: center;
   font-size: 16px;
   font-family: 'Archivo Narrow', sans-serif;
-  background: #ededed;
-  border-bottom: 1px solid #ddd; }
-
-header a, header a:hover {
-  color: #333; }
+  background: #333; }
 
 .site-menu a {
-  color: #000;
+  transition: 0.5s;
+  color: #ccc;
   display: block;
   padding: 10px 0;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center; }
 
-.site-menu a.active {
+.site-menu a.active, .site-menu a.active:hover {
   color: #52A9D4; }
+
+.site-menu a:hover {
+  transition: 0.5s;
+  color: #fff; }
 
 .site-menu a .site-menu-label {
   font-size: 14px; }
 
 .page-header {
+  border-bottom: 7px solid #52A9D4;
   position: fixed;
   top: 0;
   width: 100%;
@@ -2741,11 +2739,7 @@ header a, header a:hover {
   transition: top 0.6s;
   z-index: 100;
   padding-bottom: 0;
-  margin: 0 0 0;
-  border-bottom: 0;
-  border-top: 7px solid #52A9D4;
-  border-left: 7px solid #52A9D4;
-  border-right: 7px solid #52A9D4; }
+  margin: 0 0 0; }
 
 .page-header.off-canvas {
   top: -105px; }
@@ -3051,8 +3045,15 @@ header a, header a:hover {
 .portfolio-group-item.portfolio-kalio:hover {
   border: 1px solid #6cb33f; }
 
+.social-icons {
+  margin: 20px 0;
+  text-align: center; }
+
+.social-icons .genericon {
+  margin: 5px 0; }
+
 .social-site {
-  background: #52a9d4;
+  background: #52A9D4;
   color: #fff;
   padding: 7px;
   text-align: center;
@@ -3086,7 +3087,7 @@ img {
 
 /* home */
 .logo {
-  margin: 15px 0 10px; }
+  margin: 20px 0 10px; }
 
 .card {
   text-align: center;
@@ -3099,16 +3100,10 @@ img {
 .card h1, .card h2 {
   text-align: center; }
 
-.social-icons {
-  margin: 20px 0; }
-
-.social-icons .genericon {
-  margin: 5px 0; }
-
 .bio {
-  background: #eee;
-  padding: 30px 0;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #efefef 100%); }
+  background: #ededed;
+  padding: 15px 0;
+  /*background-image: linear-gradient(120deg, #fdfbfb 0%, #efefef 100%);*/ }
 
 .bio p {
   font-size: 16px;
@@ -3152,41 +3147,6 @@ a .fa-get-pocket:hover, .social-site.pocket a:hover, .pocket .rss-que a:hover, .
 .form-control-feedback {
   display: none; }
 
-.rss-que {
-  font-size: 14px;
-  margin: 20px 0; }
-
-.rss-que .post {
-  margin-left: 23px; }
-
-.rss-que .genericon {
-  color: #ccc;
-  font-size: 18px;
-  float: left; }
-
-.rss-que a {
-  color: #333;
-  display: block;
-  line-height: 18px; }
-
-.rss-que li .fa {
-  color: #ccc;
-  float: left;
-  line-height: 24px; }
-
-.rss-que ul {
-  margin: 0;
-  padding: 0; }
-
-.rss-que li {
-  list-style-type: none;
-  margin-bottom: 10px; }
-
-.pubdate {
-  color: #999;
-  font-size: 12px;
-  margin-top: 2px; }
-
 .dribble-shots img {
   border: 1px solid #eee;
   border-radius: 3px;
@@ -3223,12 +3183,10 @@ a .fa-get-pocket:hover, .social-site.pocket a:hover, .pocket .rss-que a:hover, .
 
 /* footer  */
 footer {
-  background: #DDF0F8;
-  padding: 10px 0;
-  text-align: center; }
+  border-top: 7px solid #52A9D4; }
 
-footer a, footer a:hover {
-  color: #333; }
+footer a {
+  color: #ccc; }
 
 @media (min-width: 321px) {
   .site-nav li {
@@ -3238,6 +3196,10 @@ footer a, footer a:hover {
 
 /* Small devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
+  .bio {
+    padding: 30px 0; }
+  h1 {
+    font-size: 42px; }
   .vertical-center {
     top: 50%; }
   .portfolio-link {

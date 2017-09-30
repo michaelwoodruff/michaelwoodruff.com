@@ -1321,20 +1321,14 @@
 		"oAP": "\/contact.html",
 		"oF": 2
 		},
-	"\/pages\/footer.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/pages\/footer.html",
-		"oF": 0
-		},
 	"\/pages\/footer.kit": {
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/pages\/footer.html",
 		"oF": 0
 		},
-	"\/pages\/header.html": {
-		"ft": 8192,
+	"\/pages\/header.kit": {
+		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/pages\/header.html",
 		"oF": 0
