@@ -2846,7 +2846,8 @@ header {
   margin: 0;
   position: absolute;
   bottom: -5px;
-  width: 100%; }
+  width: 100%;
+  opacity: 0; }
 
 .portfolio-link a {
   color: #333;
