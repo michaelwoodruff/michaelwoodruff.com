@@ -2889,8 +2889,38 @@ header {
 .portfolio-touchofclass:hover svg {
   fill: #951F2B; }
 
-.portfolio-touchofclass a, .portfolio-touchofclass {
+.portfolio-touchofclass .fa {
   color: #951F2B; }
+
+.portfolio-group-item.portfolio-touchofclass:hover {
+  border: 1px solid #951F2B;
+  background: rgba(149, 31, 43, 0.02); }
+
+.portfolio-wigs svg {
+  fill: #aaa; }
+
+.portfolio-wigs svg:hover {
+  fill: #f88379; }
+
+.portfolio-wigs:hover svg {
+  fill: #f88379; }
+
+.portfolio-wigs .fa {
+  color: #f88379; }
+
+.portfolio-group-item.portfolio-wigs:hover {
+  border: 1px solid #f88379;
+  background: rgba(248, 131, 121, 0.03); }
+
+.portfolio-pear svg {
+  width: 48%; }
+
+.portfolio-pear .fa {
+  color: #91B7BE; }
+
+.portfolio-group-item.portfolio-pear:hover {
+  border-color: #91B7BE;
+  background: rgba(146, 184, 191, 0.1); }
 
 .portfolio-dawn svg {
   width: 50%; }
@@ -2898,44 +2928,35 @@ header {
 .portfolio-dawn:hover svg {
   fill: #f65c7b; }
 
-.portfolio-dawn .portfolio-link a:hover, .portfolio-dawn .fa-arrow-right {
+.portfolio-dawn .fa {
   color: #f65c7b; }
 
 .portfolio-group-item.portfolio-dawn:hover {
-  border: 1px solid #f65c7b; }
-
-.portfolio-pear svg {
-  width: 50%; }
-
-.portfolio-pear:hover svg {
-  fill: #91B7BE; }
-
-.portfolio-pear .portfolio-link a:hover, .portfolio-pear .fa-arrow-right {
-  color: #91B7BE; }
-
-.portfolio-group-item.portfolio-pear:hover {
-  border: 1px solid #91B7BE; }
+  border: 1px solid #f65c7b;
+  background: rgba(246, 92, 123, 0.02); }
 
 .portfolio-bern:hover svg {
   fill: #D59F0F; }
 
-.portfolio-bern .portfolio-link a:hover, .portfolio-bern .fa-arrow-right {
+.portfolio-bern .fa {
   color: #D59F0F; }
 
 .portfolio-group-item.portfolio-bern:hover {
-  border: 1px solid #D59F0F; }
+  border: 1px solid #D59F0F;
+  background: rgba(213, 159, 15, 0.02); }
 
 .portfolio-hale svg {
   width: 30%; }
 
+.portfolio-hale .fa {
+  color: #d34927; }
+
 .portfolio-hale:hover svg {
   fill: #d34927; }
 
-.portfolio-hale .portfolio-link a:hover, .portfolio-hale .fa-arrow-right {
-  color: #d34927; }
-
 .portfolio-group-item.portfolio-hale:hover {
-  border: 1px solid #d34927; }
+  border: 1px solid #d34927;
+  background: rgba(211, 73, 39, 0.02); }
 
 .portfolio-ramp img {
   display: block;
@@ -2950,11 +2971,12 @@ header {
 .portfolio-ramp:hover img:last-child {
   display: block; }
 
-.portfolio-ramp .portfolio-link a:hover, .portfolio-ramp .fa-arrow-right {
+.portfolio-ramp .fa {
   color: #B2002F; }
 
 .portfolio-group-item.portfolio-ramp:hover {
-  border: 1px solid #1B406F; }
+  border: 1px solid #1B406F;
+  background: rgba(0, 61, 115, 0.03); }
 
 .portfolio-acorn img {
   display: block;
@@ -2972,7 +2994,7 @@ header {
 .portfolio-acorn:hover img:last-child {
   display: block; }
 
-.portfolio-acorn .portfolio-link a:hover, .portfolio-acorn .fa-arrow-right {
+.portfolio-acorn .fa {
   color: #810c0c; }
 
 .portfolio-group-item.portfolio-acorn:hover {
@@ -2984,16 +3006,17 @@ header {
 .portfolio-travers:hover svg {
   fill: #053979; }
 
-.portfolio-travers .portfolio-link a:hover, .portfolio-travers .fa-arrow-right {
+.portfolio-travers .fa {
   color: #1f9900; }
 
 .portfolio-group-item.portfolio-travers:hover {
-  border: 1px solid #053979; }
+  border: 1px solid #053979;
+  background: rgba(5, 57, 121, 0.03); }
 
 .portfolio-arms:hover svg {
   fill: #ff7f00; }
 
-.portfolio-arms .portfolio-link a:hover, .portfolio-arms .fa-arrow-right {
+.portfolio-arms .fa {
   color: #ff7f00; }
 
 .portfolio-group-item.portfolio-arms:hover {
@@ -3001,7 +3024,7 @@ header {
 
 .portfolio-jbbq img {
   display: block;
-  width: 45%; }
+  width: 60%; }
 
 .portfolio-jbbq img:last-child {
   display: none; }
@@ -3012,34 +3035,27 @@ header {
 .portfolio-jbbq:hover img:last-child {
   display: block; }
 
-.portfolio-jbbq .portfolio-link a:hover, .portfolio-jbbq .fa-arrow-right {
+.portfolio-jbbq .fa {
   color: #b04b3c; }
 
 .portfolio-group-item.portfolio-jbbq:hover {
-  border: 1px solid #b04b3c; }
+  border: 1px solid #b04b3c;
+  /*background:rgba(212, 48, 24,0.01);*/ }
 
 .portfolio-rtea:hover svg {
   fill: #566c11; }
 
-.portfolio-rtea .portfolio-link a:hover, .portfolio-rtea .fa-arrow-right {
+.portfolio-rtea .fa {
   color: #b32317; }
 
 .portfolio-group-item.portfolio-rtea:hover {
-  border: 1px solid #566c11; }
-
-.portfolio-wigs:hover a, .portfolio-wigs {
-  color: #f88379; }
-
-.portfolio-wigs svg {
-  fill: #aaa; }
-
-.portfolio-wigs svg:hover {
-  fill: #f88379; }
+  border: 1px solid #566c11;
+  background: rgba(86, 108, 17, 0.03); }
 
 .portfolio-kalio:hover svg {
   fill: #6cb33f; }
 
-.portfolio-kalio .portfolio-link a:hover, .portfolio-kalio .fa-arrow-right {
+.portfolio-kalio .fa {
   color: #6cb33f; }
 
 .portfolio-group-item.portfolio-kalio:hover {
