@@ -3164,6 +3164,11 @@ a .fa-get-pocket:hover, .social-site.pocket a:hover, .pocket .rss-que a:hover, .
 .form-control-feedback {
   display: none; }
 
+.fa-heart {
+  font-size: .85em;
+  line-height: .75em;
+  color: #ea4c89; }
+
 .dribble-shots img {
   border: 1px solid #eee;
   border-radius: 3px;
