@@ -3155,8 +3155,8 @@ a .fa-get-pocket:hover, .social-site.pocket a:hover, .pocket .rss-que a:hover, .
   margin: 0 auto;
   display: block; }
 
-.content-loading .fa-refresh {
-  margin-top: 15px; }
+a .fa-refresh {
+  color: #333; }
 
 .error-message {
   color: #A94442; }

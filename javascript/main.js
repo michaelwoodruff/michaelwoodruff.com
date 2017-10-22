@@ -34,9 +34,6 @@ $(document).ready(function() {
         html.push('<img class="center-block" src="' + like.shot.images.hidpi + '">');
         html.push('</a><div class="title truncate">' + like.shot.title + '</div><div class="author truncate">By <a href="' + like.shot.user.html_url + '">' + like.shot.user.name  + '</a> from ' + like.shot.user.location + '</div></div></div>');
       });
-      //like.shot.user.avatar_url
-      //<img src="' + like.shot.user.avatar_url + '">
-      //  on '+ like.shot.created_at +
       $('.likes').html(html.join(''));
     });
 
@@ -49,7 +46,6 @@ $(document).ready(function() {
         html.push('<img class="center-block" src="' + shot.images.hidpi + '">');
         html.push('</a><div class="title truncate text-center">' + shot.title + '</div></div>');
       });
-
       $('.shots').html(html.join(''));
     });
 
