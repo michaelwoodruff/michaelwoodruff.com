@@ -7,15 +7,17 @@
 		"uuidString": "1CB44A07-7550-4236-A00A-CEB498B3CE2E"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/aboutme.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/aboutme.html",
@@ -76,6 +78,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/animate.css\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/animate.css\/LICENSE",
@@ -898,12 +901,14 @@
 		"oS": 3
 		},
 	"\/bower_components\/stroll\/examples\/oversized.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/stroll\/examples\/oversized.html",
 		"oF": 0
 		},
 	"\/bower_components\/stroll\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/stroll\/index.html",
@@ -930,22 +935,24 @@
 		"tS": 0
 		},
 	"\/bower_components\/stroll\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/stroll\/LICENSE",
 		"oF": 0
 		},
 	"\/bower_components\/stroll\/mobile.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/stroll\/mobile.html",
 		"oF": 0
 		},
 	"\/bower_components\/stroll\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -960,12 +967,14 @@
 		"uCM": 0
 		},
 	"\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/contact.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/contact.html",
@@ -1222,26 +1231,18 @@
 		"q": 100
 		},
 	"\/images\/source\/DRClogo.eps": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/images\/source\/DRClogo.eps",
 		"oF": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
-		},
-	"\/javascript\/jquery.bootstrap-autohidingnavbar.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/javascript\/min\/jquery.bootstrap-autohidingnavbar.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/javascript\/jquery.fancybox-media.js": {
 		"ft": 64,
@@ -1304,118 +1305,136 @@
 		"tS": 0
 		},
 	"\/MichaelWoodruff.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/MichaelWoodruff.pdf",
 		"oF": 0
 		},
 	"\/pages\/aboutme.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/aboutme.html",
 		"oF": 2
 		},
 	"\/pages\/contact.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/contact.html",
 		"oF": 2
 		},
 	"\/pages\/footer.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/pages\/footer.html",
 		"oF": 0
 		},
 	"\/pages\/header.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/pages\/header.html",
 		"oF": 0
 		},
 	"\/pages\/index.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 2
 		},
 	"\/pages\/portfolio.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/portfolio.html",
 		"oF": 2
 		},
 	"\/pages\/social.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/pages\/social.html",
 		"oF": 0
 		},
 	"\/pages\/thanks.kit": {
+		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/thanks.html",
 		"oF": 2
 		},
 	"\/pdfs\/bern.ux.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/bern.ux.pdf",
 		"oF": 0
 		},
 	"\/pdfs\/dawn.ux.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/dawn.ux.pdf",
 		"oF": 0
 		},
 	"\/pdfs\/hale.ux.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/hale.ux.pdf",
 		"oF": 0
 		},
 	"\/pdfs\/MichaelWoodruff.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/MichaelWoodruff.pdf",
 		"oF": 0
 		},
 	"\/pdfs\/MichaelWoodruff.Recommendations.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/MichaelWoodruff.Recommendations.pdf",
 		"oF": 0
 		},
 	"\/pdfs\/MichaelWoodruff.References.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/MichaelWoodruff.References.pdf",
 		"oF": 0
 		},
 	"\/pdfs\/MichaelWoodruff.Resume.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/MichaelWoodruff.Resume.pdf",
 		"oF": 0
 		},
 	"\/pdfs\/pear.ux.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pdfs\/pear.ux.pdf",
 		"oF": 0
 		},
 	"\/portfolio.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio.html",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1430,24 +1449,28 @@
 		"uCM": 0
 		},
 	"\/sass\/.sass-cache\/6e6e37343b8a06c67b7bc223ffbaf579a9487547\/style.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/6e6e37343b8a06c67b7bc223ffbaf579a9487547\/style.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/animate.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/animate.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/fancybox.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/fancybox.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/font-awesome-animation.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/font-awesome-animation.scssc",
@@ -1467,6 +1490,7 @@
 		"uL": 1
 		},
 	"\/sass\/vendor\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/fancbox.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/vendor\/.sass-cache\/f311ff22e115b6605e160e77b081dd4adfa94423\/fancbox.scssc",
@@ -1522,6 +1546,7 @@
 		"oS": 3
 		},
 	"\/thanks.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/thanks.html",
@@ -1540,26 +1565,20 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.bootstrap-autohidingnavbar.min.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox.min.js",
+			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/javascript\/jquery.fancybox-media.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/javascript\/jquery.validate.min.js",
-			"position": 4,
+			"position": 3,
 			"type": 0
 			}
 		]
@@ -2104,6 +2123,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2168,9 +2191,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2200,6 +2223,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2209,14 +2236,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3320,7 +3339,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3353,6 +3373,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3394,7 +3415,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3426,13 +3448,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3441,7 +3463,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3461,7 +3484,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3489,7 +3513,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
