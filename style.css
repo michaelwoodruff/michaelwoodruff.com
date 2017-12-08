@@ -2725,7 +2725,8 @@ header {
   color: #fff; }
 
 .site-menu a .site-menu-label {
-  font-size: 14px; }
+  font-size: 14px;
+  margin-top: 3px; }
 
 .page-header {
   border-bottom: 7px solid #52A9D4;
