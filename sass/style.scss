@@ -261,7 +261,7 @@ color:#fff;
 
 .social-icons {margin:20px 0; text-align: center;}
 .social-icons .genericon {margin:5px 0;}
-.social-site {background:$primary-color; color:#fff; padding:7px; text-align:center; margin:15px -15px 10px; font-size:26px; font-family: 'Archivo Narrow', sans-serif;}
+.social-site {background:$primary-color; color:#fff; padding:7px; text-align:center; margin:0 -15px 10px; font-size:26px; font-family: 'Archivo Narrow', sans-serif;}
 .social-site .genericon {margin-right:5px;}
 .social-site a {color:#fff;}
 .social-site a div {font-size:14px;}
@@ -283,7 +283,7 @@ img { max-width: 100%; }
 .card h1 {margin-bottom:0;}
 .card h1, .card h2 {text-align:center;}
 
-.bio {background:$light-gray; padding: 15px 0; /*background-image: linear-gradient(120deg, #fdfbfb 0%, #efefef 100%);*/ }
+.bio {background:$light-gray; padding: 15px 0; margin-bottom: 0; /*background-image: linear-gradient(120deg, #fdfbfb 0%, #efefef 100%);*/ }
 .bio p {font-size:16px; line-height:22px;}
 
 a .fa-linkedin-square:hover {color:#007bb6;}

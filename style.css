@@ -3077,7 +3077,7 @@ header {
   color: #fff;
   padding: 7px;
   text-align: center;
-  margin: 15px -15px 10px;
+  margin: 0 -15px 10px;
   font-size: 26px;
   font-family: 'Archivo Narrow', sans-serif; }
 
@@ -3136,6 +3136,7 @@ img {
 .bio {
   background: #ededed;
   padding: 15px 0;
+  margin-bottom: 0;
   /*background-image: linear-gradient(120deg, #fdfbfb 0%, #efefef 100%);*/ }
 
 .bio p {
