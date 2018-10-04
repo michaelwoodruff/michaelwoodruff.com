@@ -102,7 +102,7 @@
   text-decoration: none;
   background: transparent url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
   /* helps IE */
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040; }
 
 .fancybox-prev {
@@ -2600,7 +2600,9 @@ h1 {
 h2 {
   font-weight: normal;
   font-family: 'Archivo Narrow', sans-serif;
-  text-align: center; }
+  text-align: center;
+  color: #52A9D4;
+  margin-bottom: 25px; }
 
 h2 span {
   color: #52A9D4; }
@@ -2819,11 +2821,12 @@ header {
 
 .portfolio-name {
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 26px;
   text-align: center;
   margin: 0;
   width: 100%;
-  font-weight: bold;
   color: #333; }
 
 .portfolio-name svg {
@@ -3102,6 +3105,9 @@ img {
   border: 1px solid #ccc;
   background: #fff; }
 
+.menu-item {
+  height: 67px; }
+
 /* home */
 .logo {
   margin: 20px 0 10px; }
@@ -3109,7 +3115,17 @@ img {
 .card {
   text-align: center;
   position: relative;
-  margin-bottom: 20px; }
+  margin-bottom: 0; }
+
+.card h1 {
+  font-weight: bold; }
+
+.card h2 {
+  color: #333;
+  margin: 15px 0 5px; }
+
+.card h2 span {
+  color: #ccc; }
 
 .card h1 {
   margin-bottom: 0; }

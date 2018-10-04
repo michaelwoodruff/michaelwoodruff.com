@@ -19,7 +19,7 @@ body {background:$dark-gray; color:$dark-gray; font-family:Helvetica, Arial, "Lu
 a {color: $primary-color;}
 a:hover {text-decoration:none; color:$primary-color;}
 h1 {color:$dark-gray; font-size:38px; margin:15px 0 25px; text-align:center; font-weight:bold; line-height:1; font-family:'Archivo Narrow', sans-serif;}
-h2 {font-weight:normal;  font-family: 'Archivo Narrow', sans-serif; text-align: center; }
+h2 {font-weight:normal; font-family: 'Archivo Narrow', sans-serif; text-align: center; color:$primary-color; margin-bottom: 25px;}
 h2 span {color:$primary-color;}
 .logo {fill:$primary-color; width:90%;}
 
@@ -166,7 +166,7 @@ color:#fff;
 }
 .portfolio-group-item.portfolio-group-disabled {background:#fff; color:#ccc;}
 .portfolio-group-item.portfolio-group-disabled .portfolio-name {color:#ccc;}
-.portfolio-name {font-family:'Archivo Narrow', sans-serif; font-size:32px;text-align:center; margin:0; width:100%; font-weight:bold; color:#333;}
+.portfolio-name {font-family:'Archivo Narrow', sans-serif; font-weight:normal; line-height: 1.2; font-size:26px; text-align:center; margin:0; width:100%; color:#333;}
 .portfolio-name svg {width:75%;}
 .portfolio-name a {display: block; text-decoration:none; color:#333;}
 
@@ -272,9 +272,14 @@ img { max-width: 100%; }
 .avatar {width:128px; margin:10px auto;}
 .avatar img {padding:0; border:1px solid #ccc; background:#fff;}
 
+.menu-item {height:67px;}
+
 /* home */
 .logo {margin:20px 0 10px;}
-.card {text-align:center; position:relative; margin-bottom:20px;}
+.card {text-align:center; position:relative; margin-bottom:0;}
+.card h1 {font-weight: bold;}
+.card h2 {color:#333; margin:15px 0 5px;}
+.card h2 span {color:#ccc;}
 .card h1 {margin-bottom:0;}
 .card h1, .card h2 {text-align:center;}
 
