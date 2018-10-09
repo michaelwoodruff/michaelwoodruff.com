@@ -2659,11 +2659,14 @@ h2 span {
   text-align: left; }
 
 .pin-item {
-  font-size: 20px;
+  font-size: 16px;
   margin: 20px 0 10px; }
 
+.pin-item a:hover {
+  text-decoration: underline; }
+
 a.pin-tag {
-  color: #999;
+  color: #7A7A7A;
   margin-top: 5px;
   font-size: 12px;
   background: #f1f1f1;
@@ -2673,7 +2676,8 @@ a.pin-tag {
 
 a.pin-tag:hover {
   background: #ccc;
-  color: #fff; }
+  color: #000;
+  text-decoration: none; }
 
 .pinboard-links {
   padding: 15px 0 35px;
@@ -2783,6 +2787,12 @@ header {
   animation-duration: 300ms;
   animation-delay: 400ms;
   animation-iteration-count: 1; }
+
+.syndicated {
+  margin-top: 25px; }
+
+.fa-sync-alt {
+  color: #999; }
 
 .sandbox-site {
   display: none; }

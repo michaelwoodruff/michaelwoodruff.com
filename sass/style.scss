@@ -43,9 +43,12 @@ h2 span {color:$primary-color;}
 .shots-item {margin:0 0px 30px;}
 .shots-item img {border:1px solid #E1E8ED;}
 .author {font-size:12px; color:#999; margin:0 0 0; text-align: left;}
-.pin-item {font-size:20px; margin:20px 0 10px;}
-a.pin-tag {color:#999; margin-top:5px; font-size:12px; background:#f1f1f1; padding:2px 5px; border-radius:4px; display: inline-block;}
-a.pin-tag:hover {background: #ccc; color:#fff;}
+.pin-item {font-size:16px; margin:20px 0 10px;}
+//.pin-item a {color:#333;}
+.pin-item a:hover {text-decoration: underline;}
+
+a.pin-tag {color:#7A7A7A; margin-top:5px; font-size:12px; background:#f1f1f1; padding:2px 5px; border-radius:4px; display: inline-block;}
+a.pin-tag:hover {background: #ccc; color:#000; text-decoration: none;}
 .pinboard-links {padding:15px 0 35px; margin-top:20px;}
 
 .truncate {
@@ -136,7 +139,13 @@ color:#fff;
 	animation-iteration-count: 1;
 }
 
+.syndicated {
+    margin-top: 25px;
+}
 
+.fa-sync-alt {
+    color: #999;
+}
 
 // portfolio
 .sandbox-site {display:none;}
