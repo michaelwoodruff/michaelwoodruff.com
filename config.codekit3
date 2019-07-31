@@ -1403,6 +1403,14 @@
 		"oAP": "/portfolio.html",
 		"oF": 2
 		},
+	"/pages/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pages/robots.txt",
+		"oF": 0
+		},
 	"/pages/social.html": {
 		"cB": 0,
 		"ft": 8192,
