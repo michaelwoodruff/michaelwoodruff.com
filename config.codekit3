@@ -1507,33 +1507,6 @@
 		"oAP": "/pdfs/MichaelWoodruff.Resume.pdf",
 		"oF": 0
 		},
-	"/pdfs/mobileapps/Pace.AppIcon.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/pdfs/mobileapps/Pace.AppIcon.pdf",
-		"oF": 0
-		},
-	"/pdfs/mobileapps/Pace.AppIcon.png": {
-		"ft": 32768,
-		"iS": 1369565,
-		"oA": 0,
-		"oAP": "/pdfs/mobileapps/Pace.AppIcon.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/pdfs/mobileapps/Pace.MobileScreens.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/pdfs/mobileapps/Pace.MobileScreens.pdf",
-		"oF": 0
-		},
 	"/pdfs/pear.ux.pdf": {
 		"cB": 0,
 		"ft": 8192,
