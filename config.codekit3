@@ -1403,14 +1403,6 @@
 		"oAP": "/portfolio.html",
 		"oF": 2
 		},
-	"/pages/robots.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/pages/robots.txt",
-		"oF": 0
-		},
 	"/pages/social.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1549,6 +1541,14 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/robots.txt",
+		"oF": 0
 		},
 	"/sass/.sass-cache/6e6e37343b8a06c67b7bc223ffbaf579a9487547/style.scssc": {
 		"cB": 0,
