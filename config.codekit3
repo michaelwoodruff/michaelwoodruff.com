@@ -1558,6 +1558,30 @@
 		"oAP": "/pdfs/pear.ux.pdf",
 		"oF": 0
 		},
+	"/pdfs/personas/ws.user-persona-jeff.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/personas/ws.user-persona-jeff.pdf",
+		"oF": 0
+		},
+	"/pdfs/personas/ws.user-persona-mickey.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/personas/ws.user-persona-mickey.pdf",
+		"oF": 0
+		},
+	"/pdfs/personas/ws.user-persona-sylvia.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/personas/ws.user-persona-sylvia.pdf",
+		"oF": 0
+		},
 	"/pdfs/sitemaps/WS.IM.SiteMap.pdf": {
 		"cB": 0,
 		"ft": 8192,
