@@ -1419,6 +1419,14 @@
 		"oAP": "/thanks.html",
 		"oF": 2
 		},
+	"/pdfs/aynies-logo-options.v1.0.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/aynies-logo-options.v1.0.pdf",
+		"oF": 0
+		},
 	"/pdfs/bern.ux.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1499,6 +1507,14 @@
 		"oAP": "/pdfs/MichaelWoodruff.Resume.OLD.pdf",
 		"oF": 0
 		},
+	"/pdfs/MichaelWoodruff.Resume.OLDER.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/MichaelWoodruff.Resume.OLDER.pdf",
+		"oF": 0
+		},
 	"/pdfs/MichaelWoodruff.Resume.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1548,6 +1564,78 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/pdfs/sitemaps/WS.IM.SiteMap.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/amle.final.wireframes.v2.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/amle.final.wireframes.v2.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/bern.ux.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/bern.ux.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/CSEC.InformationDesign.v4.5.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/CSEC.InformationDesign.v4.5.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/dawn.ux.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/dawn.ux.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/ecommerce.wireframes.v2.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/ecommerce.wireframes.v2.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/hale.ux.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/hale.ux.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/KYL.InformationDesign.v3.5.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/KYL.InformationDesign.v3.5.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/lakota.wireframes.v2.2.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/lakota.wireframes.v2.2.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/pear.ux.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/pear.ux.pdf",
 		"oF": 0
 		},
 	"/portfolio.html": {
@@ -1694,6 +1782,119 @@
 		"oA": 2,
 		"oAP": "/thanks.html",
 		"oF": 0
+		},
+	"/touchstone/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/touchstone/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/touchstone/bootstrap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/touchstone/min/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/touchstone/font-awesome.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/touchstone/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/touchstone/footable.bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/touchstone/footable.bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/touchstone/footable.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/touchstone/min/footable.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/touchstone/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/touchstone/index.html",
+		"oF": 0
+		},
+	"/touchstone/jquery.fancybox.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/touchstone/jquery.fancybox.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/touchstone/jquery.fancybox.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/touchstone/min/jquery.fancybox.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/touchstone/jquery.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/touchstone/min/jquery.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/touchstone/site.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/touchstone/min/site.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/touchstone/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/touchstone/style-min.css",
+		"oF": 0,
+		"oS": 3
 		}
 	},
 "hooks": [
