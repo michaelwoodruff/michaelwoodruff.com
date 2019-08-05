@@ -1646,6 +1646,94 @@
 		"oAP": "/pdfs/userflows/LafayetteUserFlows.pdf",
 		"oF": 0
 		},
+	"/pdfs/whiteboards/article.redeisgn2.JPG": {
+		"ft": 16384,
+		"iS": 1312884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/article.redeisgn2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/article.redesign.JPG": {
+		"ft": 16384,
+		"iS": 1351920,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/article.redesign.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/card-sorting.jpg": {
+		"ft": 16384,
+		"iS": 2100862,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/card-sorting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/fw,groupwires2.JPG": {
+		"ft": 16384,
+		"iS": 1807189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/fw,groupwires2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/fw.groupwires.JPG": {
+		"ft": 16384,
+		"iS": 1765530,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/fw.groupwires.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/fw.wb.headerfooter.JPG": {
+		"ft": 16384,
+		"iS": 1333427,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/fw.wb.headerfooter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/ll.wb.sitemap.JPG": {
+		"ft": 16384,
+		"iS": 1241182,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/ll.wb.sitemap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/llic.wb.home.JPG": {
+		"ft": 16384,
+		"iS": 1589895,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/llic.wb.home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/pdfs/wireframes/amle.final.wireframes.v2.pdf": {
 		"cB": 0,
 		"ft": 8192,
