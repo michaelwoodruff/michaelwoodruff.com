@@ -1550,6 +1550,22 @@
 		"oAP": "/pdfs/mobileapps/pace.mobilescreens.pdf",
 		"oF": 0
 		},
+	"/pdfs/navigation/W&S.Navigation.Mobile.v1.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/navigation/W&S.Navigation.Mobile.v1.pdf",
+		"oF": 0
+		},
+	"/pdfs/navigation/W&S.Navigation.v1.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/navigation/W&S.Navigation.v1.pdf",
+		"oF": 0
+		},
 	"/pdfs/pear.ux.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1582,12 +1598,52 @@
 		"oAP": "/pdfs/personas/ws.user-persona-sylvia.pdf",
 		"oF": 0
 		},
+	"/pdfs/sitemaps/FortWashington.Visual.Sitemap.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/sitemaps/FortWashington.Visual.Sitemap.pdf",
+		"oF": 0
+		},
+	"/pdfs/sitemaps/LafayetteSiteMap.3.7.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/sitemaps/LafayetteSiteMap.3.7.pdf",
+		"oF": 0
+		},
+	"/pdfs/sitemaps/Touchstone.SiteMap.v3.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/sitemaps/Touchstone.SiteMap.v3.pdf",
+		"oF": 0
+		},
 	"/pdfs/sitemaps/WS.IM.SiteMap.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/pdfs/sitemaps/WS.IM.SiteMap.pdf",
+		"oF": 0
+		},
+	"/pdfs/sitemaps/WSFGD.UX.Visual.FutureState.SiteMap.v2.0.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/sitemaps/WSFGD.UX.Visual.FutureState.SiteMap.v2.0.pdf",
+		"oF": 0
+		},
+	"/pdfs/userflows/LafayetteUserFlows.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/userflows/LafayetteUserFlows.pdf",
 		"oF": 0
 		},
 	"/pdfs/wireframes/amle.final.wireframes.v2.pdf": {
@@ -1660,6 +1716,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/pdfs/wireframes/pear.ux.pdf",
+		"oF": 0
+		},
+	"/pdfs/wireframes/ws.contact.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/pdfs/wireframes/ws.contact.pdf",
 		"oF": 0
 		},
 	"/portfolio.html": {
