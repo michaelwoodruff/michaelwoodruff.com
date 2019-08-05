@@ -1646,23 +1646,23 @@
 		"oAP": "/pdfs/userflows/LafayetteUserFlows.pdf",
 		"oF": 0
 		},
-	"/pdfs/whiteboards/article.redeisgn2.JPG": {
-		"ft": 16384,
-		"iS": 1312884,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/pdfs/whiteboards/article.redeisgn2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/pdfs/whiteboards/article.redesign.JPG": {
 		"ft": 16384,
 		"iS": 1351920,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/pdfs/whiteboards/article.redesign.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/article.redesign2.JPG": {
+		"ft": 16384,
+		"iS": 1312884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/article.redesign2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1679,23 +1679,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/pdfs/whiteboards/fw,groupwires2.JPG": {
-		"ft": 16384,
-		"iS": 1807189,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/pdfs/whiteboards/fw,groupwires2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/pdfs/whiteboards/fw.groupwires.JPG": {
 		"ft": 16384,
 		"iS": 1765530,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/pdfs/whiteboards/fw.groupwires.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/pdfs/whiteboards/fw.groupwires2.JPG": {
+		"ft": 16384,
+		"iS": 1807189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/pdfs/whiteboards/fw.groupwires2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
