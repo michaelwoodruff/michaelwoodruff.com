@@ -2734,6 +2734,12 @@ header {
   font-size: 14px;
   margin-top: 3px; }
 
+.site-menu {
+  height: 67.2px; }
+
+.site-menu svg {
+  height: 22px; }
+
 .page-header {
   border-bottom: 7px solid #52A9D4;
   position: fixed;
