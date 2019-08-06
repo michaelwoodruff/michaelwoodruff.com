@@ -2932,6 +2932,12 @@ header {
   border: 1px solid #f88379;
   background: rgba(248, 131, 121, 0.03); }
 
+.portfolio-ws svg:hover, .portfolio-group-item.portfolio-ws:hover svg {
+  fill: #0072bc; }
+
+.portfolio-group-item.portfolio-ws:hover {
+  border: 1px solid #0072bc; }
+
 .portfolio-pear svg {
   width: 48%; }
 
