@@ -28,16 +28,12 @@
   background: #f9f9f9;
   color: #444;
   text-shadow: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px; }
 
 .fancybox-opened {
   z-index: 8030; }
 
 .fancybox-opened .fancybox-skin {
-  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
 
 .fancybox-outer, .fancybox-inner {
@@ -196,8 +192,6 @@
   background: transparent;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgba(0, 0, 0, 0.8);
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
   border-radius: 15px;
   text-shadow: 0 1px 2px #222;
   color: #FFF;
@@ -1708,28 +1702,32 @@
 
 @-webkit-keyframes rotateIn {
   0% {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     -webkit-transform: rotate(-200deg);
     transform: rotate(-200deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: center; }
   to {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
 
 @keyframes rotateIn {
   0% {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     -webkit-transform: rotate(-200deg);
     transform: rotate(-200deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: center; }
   to {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
@@ -1740,28 +1738,32 @@
 
 @-webkit-keyframes rotateInDownLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
 
 @keyframes rotateInDownLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
@@ -1772,28 +1774,32 @@
 
 @-webkit-keyframes rotateInDownRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
 
 @keyframes rotateInDownRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
@@ -1804,28 +1810,32 @@
 
 @-webkit-keyframes rotateInUpLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
 
 @keyframes rotateInUpLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
@@ -1836,28 +1846,32 @@
 
 @-webkit-keyframes rotateInUpRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
 
 @keyframes rotateInUpRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     opacity: 0; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: none;
     transform: none;
     opacity: 1; } }
@@ -1868,24 +1882,28 @@
 
 @-webkit-keyframes rotateOut {
   0% {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: center; }
   to {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     -webkit-transform: rotate(200deg);
     transform: rotate(200deg);
     opacity: 0; } }
 
 @keyframes rotateOut {
   0% {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: center; }
   to {
-    transform-origin: center;
+    -webkit-transform-origin: center;
+            transform-origin: center;
     -webkit-transform: rotate(200deg);
     transform: rotate(200deg);
     opacity: 0; } }
@@ -1896,24 +1914,28 @@
 
 @-webkit-keyframes rotateOutDownLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0; } }
 
 @keyframes rotateOutDownLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     opacity: 0; } }
@@ -1924,24 +1946,28 @@
 
 @-webkit-keyframes rotateOutDownRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     opacity: 0; } }
 
 @keyframes rotateOutDownRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     opacity: 0; } }
@@ -1952,24 +1978,28 @@
 
 @-webkit-keyframes rotateOutUpLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     opacity: 0; } }
 
 @keyframes rotateOutUpLeft {
   0% {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: left bottom; }
   to {
-    transform-origin: left bottom;
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     opacity: 0; } }
@@ -1980,24 +2010,28 @@
 
 @-webkit-keyframes rotateOutUpRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     opacity: 0; } }
 
 @keyframes rotateOutUpRight {
   0% {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     opacity: 1; }
   0%, to {
     -webkit-transform-origin: right bottom; }
   to {
-    transform-origin: right bottom;
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     opacity: 0; } }
@@ -2008,7 +2042,8 @@
 
 @-webkit-keyframes hinge {
   0% {
-    transform-origin: top left; }
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
   0%, 20%, 60% {
     -webkit-transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
@@ -2016,7 +2051,8 @@
   20%, 60% {
     -webkit-transform: rotate(80deg);
     transform: rotate(80deg);
-    transform-origin: top left; }
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
   40%, 80% {
     -webkit-transform: rotate(60deg);
     transform: rotate(60deg);
@@ -2032,7 +2068,8 @@
 
 @keyframes hinge {
   0% {
-    transform-origin: top left; }
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
   0%, 20%, 60% {
     -webkit-transform-origin: top left;
     -webkit-animation-timing-function: ease-in-out;
@@ -2040,7 +2077,8 @@
   20%, 60% {
     -webkit-transform: rotate(80deg);
     transform: rotate(80deg);
-    transform-origin: top left; }
+    -webkit-transform-origin: top left;
+            transform-origin: top left; }
   40%, 80% {
     -webkit-transform: rotate(60deg);
     transform: rotate(60deg);
@@ -2614,7 +2652,8 @@ h2 span {
 .vertical-center {
   position: absolute;
   top: 40%;
-  transform: translateY(-50%); }
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
 
 .gutter-bottom {
   margin-bottom: 15px; }
@@ -2715,6 +2754,7 @@ header {
   background: #333; }
 
 .site-menu a {
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ccc;
   display: block;
@@ -2727,6 +2767,7 @@ header {
   color: #52A9D4; }
 
 .site-menu a:hover {
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #fff; }
 
@@ -2747,7 +2788,6 @@ header {
   width: 100%;
   box-sizing: border-box;
   -webkit-transition: top 0.6s;
-  -moz-transition: top 0.6s;
   transition: top 0.6s;
   z-index: 100;
   padding-bottom: 0;
@@ -2762,14 +2802,20 @@ header {
 
 .page-content {
   opacity: 0;
-  animation-duration: 500ms;
-  animation-delay: 200ms;
-  animation-iteration-count: 1; }
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1; }
 
 .page-header {
-  animation-duration: 300ms;
-  animation-delay: 400ms;
-  animation-iteration-count: 1; }
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1; }
 
 .error-msg {
   color: #a94442;
@@ -2790,9 +2836,12 @@ header {
   border-color: #52A9D4; }
 
 .page-top {
-  animation-duration: 300ms;
-  animation-delay: 400ms;
-  animation-iteration-count: 1; }
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1; }
 
 .syndicated {
   margin-top: 25px; }
@@ -2820,9 +2869,12 @@ header {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  animation-duration: 300ms;
-  animation-delay: 400ms;
-  animation-iteration-count: 1;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   opacity: 0; }
 
 .portfolio-group-item.fadeInUp {
@@ -2891,13 +2943,17 @@ header {
   padding-right: 0; }
 
 .portfolio-group-item:hover .portfolio-link {
+  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  transform: translateY(-11px);
+  -webkit-transform: translateY(-11px);
+          transform: translateY(-11px);
   opacity: 1; }
 
 .portfolio-group-item:hover .portfolio-launch {
+  -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  transform: translateY(15px);
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
   opacity: 1; }
 
 .portfolio-group-item:hover .portfolio-name {
