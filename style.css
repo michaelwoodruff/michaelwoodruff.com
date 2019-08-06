@@ -2994,6 +2994,9 @@ header {
 .portfolio-group-item.portfolio-ws:hover {
   border: 1px solid #0072bc; }
 
+.fa-arrow-circle-right {
+  color: #0072bc; }
+
 .portfolio-pear svg {
   width: 48%; }
 
